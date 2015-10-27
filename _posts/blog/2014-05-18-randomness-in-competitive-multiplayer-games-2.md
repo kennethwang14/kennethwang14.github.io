@@ -1,11 +1,18 @@
 ---
 title: Randomness in Competitive Multiplayer Games
-author: Kenneth
+
+siteNav: blog
+date: 2014-05-18
 layout: post
-permalink: /randomness-in-competitive-multiplayer-games-2/
 categories:
-  - Articles
+  - blog-posts
+
+thumbnail: blog/placeholder-avatars/thumbnail.jpg
+image: blog/placeholder-avatars/thumbnail.jpg
+
+description: "Memory optimizations."
 ---
+
 <img class="aligncenter" src="http://assets1.ignimgs.com/vid/thumbnails/user/2014/04/12/maxresdefault-(1).jpg" alt="" width="1920" height="1080" />
 
 March 2014: The [SeatStory Cup ][1]took place with a $15,000 prize pool for Hearthstone.

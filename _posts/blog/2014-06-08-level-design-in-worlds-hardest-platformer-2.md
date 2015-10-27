@@ -1,12 +1,18 @@
 ---
 title: 'Level Design in World&#8217;s Hardest Platformer 2'
-author: Kenneth
+
+siteNav: blog
+date: 2014-06-08
 layout: post
-permalink: /level-design-in-worlds-hardest-platformer-2/
 categories:
-  - Articles
-  - Developer Journals
+  - blog-posts
+
+thumbnail: blog/placeholder-avatars/thumbnail.jpg
+image: blog/placeholder-avatars/thumbnail.jpg
+
+description: "Memory optimizations."
 ---
+
 <img class="aligncenter" src="http://i.imgur.com/lJImoGN.png" alt="" width="746" height="431" />
 
 **Summary:**

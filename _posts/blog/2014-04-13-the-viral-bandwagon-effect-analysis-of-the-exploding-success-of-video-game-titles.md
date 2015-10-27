@@ -1,11 +1,18 @@
 ---
 title: 'The Viral-Bandwagon Effect: Analysis of the “Exploding” Success of Video Game Titles'
-author: Kenneth
+
+siteNav: blog
+date: 2014-4-13
 layout: post
-permalink: /the-viral-bandwagon-effect-analysis-of-the-exploding-success-of-video-game-titles/
 categories:
-  - Articles
+  - blog-posts
+
+thumbnail: blog/placeholder-avatars/thumbnail.jpg
+image: blog/placeholder-avatars/thumbnail.jpg
+
+description: "Memory optimizations."
 ---
+
 &nbsp;
 
 <span style="visibility: hidden;">+++</span>After months of going unnoticed, the game *Flappy Bird* suddenly and quickly soared up to the number 1 rank in both the App Store and the Play Store. It was played ubiquitously, capturing the hearts of both casual and hardcore gamers. It spawned [many, many, clones][1], and some even called [*Flappy Bird* a genre of its own][2].

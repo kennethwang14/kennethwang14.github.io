@@ -1,11 +1,18 @@
 ---
 title: World’s Hardest Platformer – Memory Optimization
-author: Kenneth
+
+siteNav: blog
+date: 2013-11-19
 layout: post
-permalink: /worlds-hardest-platformer-memory-optimization/
 categories:
-  - Developer Journals
+  - blog-posts
+
+thumbnail: blog/placeholder-avatars/thumbnail.jpg
+image: blog/placeholder-avatars/thumbnail.jpg
+
+description: "Memory optimizations."
 ---
+
 <span style="visibility:hidden;">+++</span><span style="line-height:1.5;">Precision and timing are two of the most important factors in World’s Hardest Platformer. However, the user’s sense of precision and timing would be completely distorted if lag occurs. That is why memory optimization and coding efficiency are extremely important for my game, combined with the fact that a vast amount of Android devices have low RAM.</span>
 
 <span style="visibility:hidden;">+++</span>When examining my game, the most obvious memory-heavy objects are my Tiles. Each Tile is of its own instance, with a variety of variables. They are: int *tileX*, int *tileY*, int *speedX*, int *speedY*, String *type*, Image *tileImage*, Rect *r*. The Android Rect class also contains four int variables, int *bottom*, int *left*, int *top*, int *right*.

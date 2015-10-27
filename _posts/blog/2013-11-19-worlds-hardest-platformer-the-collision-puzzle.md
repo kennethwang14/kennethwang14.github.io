@@ -1,11 +1,18 @@
 ---
 title: World’s Hardest Platformer – The Collision Puzzle
-author: Kenneth
+
+siteNav: blog
+date: 2013-11-19
 layout: post
-permalink: /worlds-hardest-platformer-the-collision-puzzle/
 categories:
-  - Developer Journals
+  - blog-posts
+
+thumbnail: blog/placeholder-avatars/thumbnail.jpg
+image: blog/placeholder-avatars/thumbnail.jpg
+
+description: "Memory optimizations."
 ---
+
 <span style="visibility:hidden;">+++</span>Collision detection had been a huge obstacle for my game. Like many other tile-based 2D platformers, I used rectangles as my collision bounds. I had four rectangles on my Block: one on each side to tell which side triggers collision.
 
 <p align="center">

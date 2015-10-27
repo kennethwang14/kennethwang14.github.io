@@ -1,11 +1,18 @@
 ---
 title: 'Video Games: The Ultimate Storytelling Tool'
-author: Kenneth
+
+siteNav: blog
+date: 2014-04-21
 layout: post
-permalink: /video-games-the-ultimate-storytelling-tool/
 categories:
-  - Articles
+  - blog-posts
+
+thumbnail: blog/placeholder-avatars/thumbnail.jpg
+image: blog/placeholder-avatars/thumbnail.jpg
+
+description: "Memory optimizations."
 ---
+
 &nbsp;
 
 [<img class=" wp-image-43 aligncenter" src="http://fsolace.files.wordpress.com/2014/04/1.jpg?w=500" alt="1" width="573" height="280" />][1]
