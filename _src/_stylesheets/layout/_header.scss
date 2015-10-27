@@ -9,11 +9,12 @@
 	display:none;
 }
 
-.siteNav__list {
-	padding:10px;
+.siteNav__list li {
+	display: inline;
+	margin-right: 20px;
+	padding: 15px;
 }
 
 .siteNav__link {
-	display: inline;
-	margin-right: 20px;
+	
 }
