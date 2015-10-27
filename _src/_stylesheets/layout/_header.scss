@@ -1,3 +1,19 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+.siteNav {
+	width:100%;
+}
+
+.siteNav__logo {
+	display:none;
+}
+
+.siteNav__list {
+	padding:10px;
+}
+
+.siteNav__link {
+	display: inline-block;
+	margin-right: 20px;
+}
