@@ -1,3 +1,22 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+.introduction {
+	padding:50px;
+}
+
+.introduction__wrapper {
+	lost-column:1/2;
+}
+
+.introduction__hello {
+	font-size:12px;
+}
+
+.introduction__title {
+	font-size:40px;
+}
+
+.introduction__tagline {
+	font-size:25px;
+}
