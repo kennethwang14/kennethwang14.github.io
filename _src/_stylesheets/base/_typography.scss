@@ -2,6 +2,44 @@
  * Basic typography style for copy text
  */
 body {
-  color: $text-color;
-  font: normal 125% / 1.4 $text-font-stack;
+  color: $body-color;
+  font-family: $body-font;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+h1 {
+  color: $title-color;
+  font-size: 60px;
+  line-height: 1.2;
+}
+
+h2 {
+  color: $title-color;
+  font-family: $title-font;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.code {
+  font-family: $code-font;
 }

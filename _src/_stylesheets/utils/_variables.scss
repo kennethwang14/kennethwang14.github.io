@@ -4,51 +4,27 @@
 
 
 
-
-
 /// Regular font family
 /// @type List
-$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$body-font: 'proxima-nova', sans-serif; //100, 300, 700, 800
+$title-font: 'adelle-sans', sans-serif; //700
 
 /// Code (monospace) font family
 /// @type List
-$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+$code-font: 'anonymous-pro', serif; //400
 
-
-
-
-
-/// Copy text color
-/// @type Color
-$text-color: #222 !default;
-
-/// Main brand color
-/// @type Color
-$brand-color: #E50050 !default;
-
-/// Light grey
-/// @type Color
-$light-grey: #EDEDED !default;
-
-/// Medium grey
-/// @type Color
-$mid-grey: #999 !default;
-
-/// Dark grey
-/// @type Color
-$dark-grey: #444 !default;
-
-
-
+/// Colors
+$sea-blue:rgb(9, 189, 250);
+$theme-color: $sea-blue;
+$title-color: rgb(50, 50, 50);
+$body-color: rgb(80, 80, 80);
+$silver: rgb(189, 195, 199);
 
 
 /// Container's maximum width
 /// Below that is 100%
 /// @type Length
-$max-width: 1200px !default;
-
-
-
+$max-width: 1024px !default;
 
 
 /// Breakpoints map
@@ -60,10 +36,6 @@ $breakpoints: (
   'medium': (min-width: 768px),
   'large': (min-width: 1024px),
 ) !default;
-
-
-
-
 
 
 /// Relative or absolute URL where all assets are served from

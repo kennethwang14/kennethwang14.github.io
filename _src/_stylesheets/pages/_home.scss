@@ -2,24 +2,27 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 .introduction {
-	padding:50px;
-	margin-left:20vw;
-	margin-top:20vh;
+  padding: 50px;
+  margin-left: 20vw;
+  margin-top: 20vh;
+  lost-utility: clearfix;
 }
 
 .introduction__wrapper {
-	lost-column:1/2;
-	max-width:300px;
+  lost-column: 1/2;
+  max-width: 300px;
 }
 
 .introduction__hello {
-	font-size:18px;
+  font-size: 18px;
 }
 
 .introduction__title {
-	font-size:80px;
+  font-size: 80px;
+  text-align: right;
 }
 
 .introduction__tagline {
-	font-size:45px;
+  font-size: 45px;
+  text-align: left;
 }
