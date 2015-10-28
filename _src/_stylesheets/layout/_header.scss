@@ -2,27 +2,28 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 .siteNav {
-	width:100%;
-	margin-bottom:20px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .siteNav__logo {
-	display:none;
+  display: none;
 }
 
 .siteNav__list {
-	padding: 20px;
+  padding: 20px;
 }
 
 .siteNav__list li {
-	display: inline;
-	margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 .siteNav__link {
-	color: #666;
+  color: $silver;
+  text-decoration: none;
 }
 
 .active {
-	color:#444;
+  color: $body-color;
 }
