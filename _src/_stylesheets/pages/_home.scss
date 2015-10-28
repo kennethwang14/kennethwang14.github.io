@@ -10,20 +10,21 @@
 
 .introduction__wrapper {
   lost-column: 1/2;
-  max-width: 400px;
-  height: 400px;
+  width:auto;
+  height: 200px;
+  &:last-child {
+  	lost-align: bottom-left;
+  }
 }
 
 .introduction__hello {
 }
 
 .introduction__title {
-  font-size: 80px;
   text-align: right;
-  line-height: 1.2;
+  line-height: 0.8;
 }
 
 .introduction__tagline {
   text-align: left;
-  lost-align: bottom-left;
 }

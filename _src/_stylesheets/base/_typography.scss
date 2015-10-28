@@ -9,9 +9,19 @@ body {
   line-height: 1.5;
 }
 
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 300;
+  line-height: 1.5;
+}
+
 h1 {
   color: $title-color;
-  font-size: 60px;
+  font-size: 100px;
   font-weight: 900;
   line-height: 1.2;
 }
