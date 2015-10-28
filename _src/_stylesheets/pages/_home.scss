@@ -3,14 +3,14 @@
 // -----------------------------------------------------------------------------
 .introduction {
   padding: 50px;
-  margin-left: 20vw;
+  margin-left: 12vw;
   margin-top: 20vh;
   lost-utility: clearfix;
 }
 
 .introduction__wrapper {
   lost-column: 1/2;
-  width:auto;
+  width: 465px; //Width of title text
   height: 200px;
   &:last-child {
   	lost-align: bottom-left;
