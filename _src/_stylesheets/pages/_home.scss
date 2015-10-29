@@ -40,6 +40,10 @@
   margin-top: 15vh;
 }
 
+.latestPosts__post__wrapper {
+  text-decoration: none;
+}
+
 .latestPosts__wrapper {
   lost-column: 1/2 2 65px;
   width: 430px; //Width of title text
@@ -70,9 +74,8 @@
 }
 
 
-.latestPosts__description {
-  color: $body-color!important;
-  text-decoration: none!important;
+.latestPosts__text__wrapper .latestPosts__description {
+  color: $body-color;
   margin-top: 5px;
 }
 
