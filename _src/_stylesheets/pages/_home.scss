@@ -48,15 +48,11 @@
 }
 
 .latestsPosts__header__title {
-  lost-column: 1/2;
-  text-align: left;
-  lost-align: bottom-left;
+
 }
 
 .latestsPosts__viewMore {
-  lost-column:1/2;
-  text-align: left;
-  lost-align: bottom-right;
+  position: absolute; right: 0; bottom: -1px;
 }
 
 /* The Media Object CSS
