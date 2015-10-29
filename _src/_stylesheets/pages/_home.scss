@@ -40,14 +40,14 @@
 }
 
 .latestPosts__wrapper {
-  lost-column: 1/2 64px;
+  lost-column: 1/2 64px no-flex;
   width: 430px; //Width of title text
   height: 200px;
 }
 
 .latestPosts__header {
   border-bottom: 1px solid $silver;	
-  position:relative;
+  position: relative;
 }
 
 .latestPosts__header__title {
@@ -59,7 +59,9 @@
   position: absolute;
   right: 0;
   bottom: -5px;
-  color: $silver;
+  h6 {
+    color: $silver;
+  }
 }
 
 /* The Media Object CSS
