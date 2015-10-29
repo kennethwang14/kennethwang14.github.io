@@ -73,6 +73,11 @@
 	margin-top: 5px;
 }
 
+.latestPosts__description .latestPosts__description {
+	color: $body-color;
+	text-decoration: none;
+}
+
 /* The Media Object CSS
 http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/ */
 .latestPosts__text__wrapper {
