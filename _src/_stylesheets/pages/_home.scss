@@ -34,7 +34,7 @@
 }
 
 .latestPosts {
-  margin-top: 5vh;
+  margin-top: 15vh;
 }
 
 .latestPosts__wrapper {
@@ -49,11 +49,11 @@
 }
 
 .latestPosts__header__title {
-
+	line-height:0.8;
 }
 
 .latestPosts__viewMore {
-  position: absolute; right: 0; bottom: -1px;
+  position: absolute; right: 0; bottom: -5px;
 }
 
 /* The Media Object CSS
