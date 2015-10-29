@@ -43,14 +43,20 @@
   height: 200px;
 }
 
+.latestsPosts__header {
+  border-bottom: 1px solid $silver;	
+}
+
 .latestsPosts__header__title {
   lost-column: 1/2;
   text-align: left;
+  lost-align: bottom-left;
 }
 
 .latestsPosts__viewMore {
   lost-column:1/2;
   text-align: left;
+  lost-align: bottom-right;
 }
 
 /* The Media Object CSS
