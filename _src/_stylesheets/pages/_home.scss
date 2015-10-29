@@ -40,9 +40,10 @@
 }
 
 .latestPosts__wrapper {
-  lost-column: 1/2 30px;
-  width: 415px; //Width of title text
+  lost-column: 1/2;
+  width: 430px; //Width of title text
   height: 200px;
+  margin-right:20px;
 }
 
 .latestPosts__header {
