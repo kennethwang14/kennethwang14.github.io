@@ -69,13 +69,11 @@
 	line-height: 1.1;
 }
 
-.latestPosts__description {
-	margin-top: 5px;
-}
 
-.latestPosts__description .latestPosts__description {
-	color: $body-color;
-	text-decoration: none;
+.latestPosts__text__wrapper .latestPosts__description {
+  color: $body-color;
+  text-decoration: none;
+  margin-top: 5px;
 }
 
 /* The Media Object CSS
