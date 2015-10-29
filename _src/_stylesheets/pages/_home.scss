@@ -44,11 +44,13 @@
 }
 
 .latestsPosts__header__title {
-  float:left;
+  lost-column: 1/2;
+  text-align: left;
 }
 
 .latestsPosts__viewMore {
-  float:right;
+  lost-column:1/2;
+  text-align: left;
 }
 
 /* The Media Object CSS
