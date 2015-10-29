@@ -7,11 +7,11 @@ layout: post
 categories:
   - work
 
-thumbnail: blog/placeholder-avatars/thumbnail.jpg
-image: blog/placeholder-avatars/thumbnail.jpg
+thumbnail: placeholder/thumbnail.jpg
+image: placeholder/thumbnail.jpg
 
 role:              "UX/UI Design, Design Direction & Front-end Dev"
-description:       "Memory optimizations."
+description:       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid molestias itaque soluta blanditiis nostrum, et totam fugiat libero dolorum omnis perferendis."
 ---
 
 <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat amet quae eveniet aliquid, iusto tempora dolores a fugiat necessitatibus adipisci excepturi, molestias quasi nostrum magnam sequi numquam dolorum consequuntur? Reiciendis.</div>

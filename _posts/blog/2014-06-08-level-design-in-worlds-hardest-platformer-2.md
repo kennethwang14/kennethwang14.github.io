@@ -7,10 +7,10 @@ layout: post
 categories:
   - blog-posts
 
-thumbnail: blog/placeholder-avatars/thumbnail.jpg
-image: blog/placeholder-avatars/thumbnail.jpg
+thumbnail: placeholder/thumbnail.jpg
+image: placeholder/thumbnail.jpg
 
-description: "Memory optimizations."
+description: "By manually making every single level ourselves, we were able to make sure that they were all high-quality."
 ---
 
 <img class="aligncenter" src="http://i.imgur.com/lJImoGN.png" alt="" width="746" height="431" />

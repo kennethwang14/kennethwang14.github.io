@@ -14,7 +14,6 @@
 
 .introduction__wrapper {
   lost-column: 1/2;
-  position: relative;
   width: 465px; //Width of title text
   height: 200px;
   &:last-child {
@@ -23,9 +22,8 @@
 }
 
 .introduction__hello {
-  position: absolute;
-  left: 1px;
-  top: 0;
+  position: relative;
+  left: 2px;
 }
 
 .introduction__title {
@@ -73,7 +71,10 @@ http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-o
 .latestPosts__thumbnail {
   float:left;
   margin-right: 10px;
+  width: 100px;
+  height: 100px;
   img {
     display:block;
+    border-radius: 50%;
   }
 }
