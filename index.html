@@ -3,57 +3,64 @@ layout: default
 siteNav: home
 ---
 
-<section class="introduction">
-	
-	<div class="introduction__wrapper">
-		<h5 class="introduction__hello">Hi, I'm</h5>
-		<h1 class="introduction__title">KENNETH WANG</h1>
-	</div>
-	<div class="introduction__wrapper">
-		<h3 class="introduction__tagline">I combine beautiful code and stunning design to create amazing products.</h3>
-	</div>
+<div class="home__wrapper">
 
-</section>
-
-
-
-<section class="latestPosts">
-	<div class="latestPosts__wrapper">
-
-
-		<div class="latestsPosts__header">
-			<h5 class="latestsPosts__header__title">Latest Blog Post</h5>
-			<a class="latestPosts__view-more" href="{{ site.baseurl }}/blog/">View more →</a>
+	<section class="introduction">
+		
+		<div class="introduction__wrapper">
+			<h5 class="introduction__hello">Hi, I'm</h5>
+			<h1 class="introduction__title">KENNETH WANG</h1>
 		</div>
-		{% for post in site.categories['blog-posts'] limit:1 %}
-		<a class="latestPosts__post__wrapper" href="{{ post.url | prepend: site.baseurl }}/">
-			<div class="latestPosts__thumbnail">
-				<img src="/assets/images/{{ post.thumbnail }}">
-			</div>
-			<div class="latestPosts__text__wrapper">
-				<span class="latestPosts__title" >{{ post.title }}</span>
-				<p class="latestPosts__description">{{ post.description }}</p>
-			</div>
-		</a>
-		{% endfor %}
-
-
-		<div class="latestsPosts__header">
-			<h5 class="latestsPosts__header__title">Featured Work</h5>
-			<a class="latestPosts__view-more" href="{{ site.baseurl }}/work/">View more →</a>
+		<div class="introduction__wrapper">
+			<h3 class="introduction__tagline">I combine beautiful code and stunning design to create amazing products.</h3>
 		</div>
-		{% for post in site.categories['work'] limit:1 %}
-		<a class="latestPosts__post__wrapper" href="{{ post.url | prepend: site.baseurl }}/">
-			<div class="latestPosts__thumbnail">
-				<img src="/assets/images/{{ post.thumbnail }}">
-			</div>
-			<div class="latestPosts__text__wrapper">
-				<span class="latestPosts__title" >{{ post.title }}</span>
-				<p class="latestPosts__description">{{ post.description }}</p>
-			</div>
-		</a>
-		{% endfor %}
+
+	</section>
 
 
-	</div>
-</section>
+
+	<section class="latestPosts">
+		<div class="latestPosts__wrapper">
+
+
+			<div class="latestsPosts__header">
+				<h5 class="latestsPosts__header__title">Latest Blog Post</h5>
+				<a class="latestPosts__viewMore" href="{{ site.baseurl }}/work/"><h6>View more →</h6></a>
+			</div>
+			{% for post in site.categories['blog-posts'] limit:1 %}
+			<a class="latestPosts__post__wrapper" href="{{ post.url | prepend: site.baseurl }}/">
+				<div class="latestPosts__thumbnail">
+					<img src="/assets/images/{{ post.thumbnail }}">
+				</div>
+				<div class="latestPosts__text__wrapper">
+					<h3 class="latestPosts__title" >{{ post.title }}</h3>
+					<h6 class="latestPosts__description">{{ post.description }}</h6>
+				</div>
+			</a>
+			{% endfor %}
+		</div>
+
+		<div class="latestPosts__wrapper">
+
+
+			<div class="latestsPosts__header">
+				<h5 class="latestsPosts__header__title">Featured Work</h5>
+				<a class="latestPosts__viewMore" href="{{ site.baseurl }}/work/"><h6>View more →</h6></a>
+			</div>
+			{% for post in site.categories['work'] limit:1 %}
+			<a class="latestPosts__post__wrapper" href="{{ post.url | prepend: site.baseurl }}/">
+				<div class="latestPosts__thumbnail">
+					<img src="/assets/images/{{ post.thumbnail }}">
+				</div>
+				<div class="latestPosts__text__wrapper">
+					<h3 class="latestPosts__title" >{{ post.title }}</h3>
+					<h6 class="latestPosts__description">{{ post.description }}</h6>
+				</div>
+			</a>
+			{% endfor %}
+
+
+		</div>
+	</section>
+
+</div>

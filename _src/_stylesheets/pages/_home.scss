@@ -1,10 +1,15 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+
+.home__wrapper {
+	margin-left: 12vw;
+	margin-top: 12vh;
+	padding: 50px;
+	max-width: $max-width;
+}
+
 .introduction {
-  padding: 50px;
-  margin-left: 12vw;
-  margin-top: 20vh;
   lost-utility: clearfix;
 }
 
@@ -27,4 +32,38 @@
 
 .introduction__tagline {
   text-align: left;
+}
+
+.latestPost {
+  margin-top: 5vh;
+}
+
+.latestPost__wrapper {
+  lost-column: 1/2;
+  width: 465px; //Width of title text
+  height: 200px;
+}
+
+.latestsPosts__header__title {
+  float:left;
+}
+
+.latestsPosts__viewMore {
+  float:right;
+}
+
+/* The Media Object CSS
+http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/ */
+.latestPosts__text__wrapper {
+  overflow:hidden;
+  _overflow:visible;
+  zoom:1;
+}
+
+.latestPosts__thumbnail {
+  float:left;
+  margin-right: 10px;
+  img {
+    display:block;
+  }
 }
