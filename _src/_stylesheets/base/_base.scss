@@ -23,8 +23,9 @@ html {
  * Basic styles for links
  */
 a {
-  text-decoration: underline;
-
+  text-decoration: none;
+  color:$body-color;
+  
   @include on-event {
     color: $theme-color;
     text-decoration: underline;
