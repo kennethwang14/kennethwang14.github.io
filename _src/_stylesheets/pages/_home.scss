@@ -70,9 +70,9 @@
 }
 
 
-.latestPosts__text__wrapper .latestPosts__description {
-  color: $body-color;
-  text-decoration: none;
+.latestPosts__description {
+  color: $body-color!important;
+  text-decoration: none!important;
   margin-top: 5px;
 }
 
