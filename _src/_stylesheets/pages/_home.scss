@@ -55,13 +55,11 @@
 
 
 .home__monotoneFace { 
-  width: 20%;
-  background-position: 20%;
-  max-width: 649px; //File width
+  width: 600px;
+  height: 745px;
   background-image: url("/assets/images/MonotoneFace.png");
   background-size: cover;
   position: absolute;
-  top: 0;
   right: 0;
   bottom: 0;
   z-index: -1;
