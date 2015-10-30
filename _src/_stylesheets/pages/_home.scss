@@ -80,14 +80,23 @@
 
 .expertise__wrapper {
   lost-center: 60%;
+  text-align: center;
 }
 
 	.expertiseTitle {
 	  font-family: $title-font;
+	  margin-top: 20px;
+      margin-bottom: 10px;
 	}
 
 	.expertise__blocks {
 	  lost-column: 1/3;
+	  padding: 40px;
+	}
+
+	.expertise__image img {
+		width: 100px;
+		height: auto;
 	}
 
 
