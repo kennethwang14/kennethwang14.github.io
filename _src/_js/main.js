@@ -8,10 +8,10 @@ $(function(){
       });
 
       $(".homeAnimation1").delay(100).animate({ opacity: 1 }, 500);​
-      $(".homeAnimation2").delay(250).animate({ opacity: 1 }, 500);​
+      $(".homeAnimation2").delay(250).animate({ opacity: 1 }, 1000);​
       $(".homeAnimation3").delay(400).animate({ opacity: 1 }, 1200);​
       $(".homeAnimation4").delay(600).animate({ opacity: 1 }, 1200);​
       $(".introduction .fancy-hr").delay(600).animate({ opacity: 1 }, 1200);​
       $(".homeAnimation5").delay(700).animate({ opacity: 1 }, 1200);​
-      $(".typed-cursor").delay(700).animate({ opacity: 1 }, 1200);​
+      $(".typed-cursor").delay(700).css({ display:inline }, 1200);​
  });
