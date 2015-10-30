@@ -69,8 +69,8 @@
 
 
 .expertise {
-  padding-top: 100px;
-  padding-bottom: 120px;
+  padding-top: 80px;
+  padding-bottom: 100px;
   background: -webkit-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* Chrome 10+, Saf5.1+ */
   background:    -moz-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* FF3.6+ */
   background:     -ms-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* IE10 */
@@ -85,8 +85,8 @@
 
 	.expertiseTitle {
 	  font-family: $title-font;
-	  margin-top: 20px;
       margin-bottom: 10px;
+      text-align: center;
 	}
 
 	.expertise__blocks {
@@ -94,10 +94,15 @@
 	  padding: 40px;
 	}
 
-	.expertise__image img {
-		width: 100px;
-		height: auto;
-	}
+		.expertise__block__title {
+		  margin-top: 20px;
+		  margin-bottom: 10px;
+		}
+
+		.expertise__image img {
+			width: 100px;
+			height: auto;
+		}
 
 
 .latestPosts {
