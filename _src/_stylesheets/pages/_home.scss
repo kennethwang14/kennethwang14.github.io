@@ -84,13 +84,13 @@
 
 	.expertise__blocks {
 	  lost-column: 1/5 3 40px;
-	  %:nth-child(1) {
+	  &:nth-child(1) {
 	  	lost-move: 1/5;
 	  }
-	  %:nth-child(2) {
+	  &:nth-child(2) {
 	  	lost-move: 2/5;
 	  }
-	  %:nth-child(3) {
+	  &:nth-child(3) {
 	  	lost-move: 3/5;
 	  }
 	}
