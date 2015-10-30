@@ -5,7 +5,7 @@
 .home__header {
 	position: relative;
 	height: 88vh;
-	border-bottom: 1px solid mix(white, $silver, 25%);
+	border-bottom: 1px solid mix(white, $silver, 50%);
 }
 
 	.introduction {
@@ -99,7 +99,7 @@
 		.expertise__image img {
 			width: 100px;
 			height: auto;
-			&:hover {
+			@include on-event {
 				fill: $theme-color;
 			}
 		}
@@ -111,7 +111,7 @@
 		}
 
 		.expertise__description {
-		  color: $silver;
+		  color: mix(black, $silver, 25%);
 		}
 
 
