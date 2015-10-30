@@ -116,6 +116,9 @@
 
 .latestPosts {
   lost-center: 60%;
+  padding: 50px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 	.latestPosts__wrapper {
@@ -182,4 +185,14 @@
 
 .homeAnimation1, .homeAnimation2, .homeAnimation3, .homeAnimation4, .homeAnimation5 {
 	opacity: 0;
+}
+
+.contactMe {
+	
+  background: -webkit-linear-gradient(90deg, #00c6ff 10%, $theme-color 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #00c6ff 10%, $theme-color 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #00c6ff 10%, $theme-color 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #00c6ff 10%, $theme-color 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #00c6ff 10%, $theme-color 90%); /* W3C */
+        
 }

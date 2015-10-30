@@ -61,26 +61,7 @@ siteNav: home
 
 
 <section class="latestPosts">
-		<div class="latestPosts__wrapper">
-
-
-			<div class="latestPosts__header clearfix">
-				<h5 class="latestPosts__header__title">LATEST BLOG POST</h5>
-				<a class="latestPosts__viewMore" href="{{ site.baseurl }}/work/"><h6>View more →</h6></a>
-			</div>
-			{% for post in site.categories['blog-posts'] limit:1 %}
-			<a class="latestPosts__post__wrapper" href="{{ post.url | prepend: site.baseurl }}/">
-				<div class="latestPosts__thumbnail">
-					<img src="/assets/images/{{ post.thumbnail }}">
-				</div>
-				<div class="latestPosts__text__wrapper">
-					<h4 class="latestPosts__title" >{{ post.title }}</h4>
-					<h6 class="latestPosts__description">{{ post.description }}</h6>
-				</div>
-			</a>
-			{% endfor %}
-		</div>
-
+		
 		<div class="latestPosts__wrapper">
 
 
@@ -102,6 +83,36 @@ siteNav: home
 
 
 		</div>
+
+
+		<div class="latestPosts__wrapper">
+
+
+			<div class="latestPosts__header clearfix">
+				<h5 class="latestPosts__header__title">LATEST BLOG POST</h5>
+				<a class="latestPosts__viewMore" href="{{ site.baseurl }}/work/"><h6>View more →</h6></a>
+			</div>
+			{% for post in site.categories['blog-posts'] limit:1 %}
+			<a class="latestPosts__post__wrapper" href="{{ post.url | prepend: site.baseurl }}/">
+				<div class="latestPosts__thumbnail">
+					<img src="/assets/images/{{ post.thumbnail }}">
+				</div>
+				<div class="latestPosts__text__wrapper">
+					<h4 class="latestPosts__title" >{{ post.title }}</h4>
+					<h6 class="latestPosts__description">{{ post.description }}</h6>
+				</div>
+			</a>
+			{% endfor %}
+		</div>
+
+	</section>
+
+
+
+
+	<section class="contactMe">
+		
+		
 	</section>
 
 <script defer src="assets/js/typed.js"></script>
