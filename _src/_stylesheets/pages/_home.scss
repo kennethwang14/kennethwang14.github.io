@@ -16,6 +16,7 @@
 
 		.introduction__wrapper {
 		  lost-column: 1/2 2;
+		  lost-utility: clearfix;
 		  width: 465px; //Width of title text
 		  height: 200px;
 		  &:last-child {
@@ -50,11 +51,12 @@
 
 
 .home__monotoneFace { 
-  width:33vw;
+  width:33%;
   max-width: 649px; //File width
   background-image: url("/assets/images/MonotoneFace.png");
   background-size: cover;
   position: absolute;
+  top: 0;
   right: 0;
   bottom: 0;
 }
