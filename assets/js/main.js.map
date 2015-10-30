@@ -1,1 +1,1 @@
-{"version":3,"sources":["main.js"],"names":["$"],"mappings":"AAAAA,EAAE","file":"main.js","sourcesContent":["$(function() {\n\n\n\n});\n"],"sourceRoot":"/source/"}
+{"version":3,"sources":["main.js"],"names":["$","typed","strings","typeSpeed"],"mappings":"AAAAA,EAAE,WACIA,EAAE,6BAA6BC,OAC7BC,SAAU,kBAAmB,oBAC7BC,UAAW","file":"main.js","sourcesContent":["$(function(){\n      $(\".introduction__typewriter\").typed({\n        strings: [\"First sentence.\", \"Second sentence.\"],\n        typeSpeed: 0\n      });\n });"],"sourceRoot":"/source/"}
