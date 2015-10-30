@@ -5,7 +5,7 @@
 .home__header {
 	position: relative;
 	height: 88vh;
-	border-bottom: 1px solid $silver;
+	border-bottom: 1px solid mix(white, $silver, 25%);
 }
 
 	.introduction {
@@ -99,6 +99,9 @@
 		.expertise__image img {
 			width: 100px;
 			height: auto;
+			&:hover {
+				fill: $theme-color;
+			}
 		}
 
 		.expertise__block__title {
