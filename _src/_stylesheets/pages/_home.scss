@@ -4,19 +4,22 @@
 
 .home__header {
 	position: relative;
+	height: 90vh;
 }
 
 	.introduction {
-	  lost-utility: clearfix;
+
 	  margin-left: 12vw;
 	  margin-top: 12vh;
 	  padding: 50px;
 	  max-width: 60vw;
 	}
 
-		.introduction__wrapper {
+	.introduction__textContainer__wrapper {
+	  lost-utility: clearfix;
+	}
+		.introduction__textContainer {
 		  lost-column: 1/2 2;
-		  lost-utility: clearfix;
 		  width: 465px; //Width of title text
 		  height: 200px;
 		  &:last-child {
