@@ -6,6 +6,7 @@
 	margin-left: 12vw;
 	margin-top: 12vh;
 	padding: 50px;
+	max-width: 60vw;
 }
 
 	.introduction {
@@ -41,6 +42,7 @@
 }
 
 	.introduction__typewriter {
+	  font-size: 22px;
 	  font-family: $code-font;
 	}
 
