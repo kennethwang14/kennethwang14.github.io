@@ -4,7 +4,8 @@
 
 .home__header {
 	position: relative;
-	height: 90vh;
+	height: 88vh;
+	border-bottom: 1px solid $silver;
 }
 
 	.introduction {
@@ -54,7 +55,7 @@
 
 
 .home__monotoneFace { 
-  width:33%;
+  width: 28%;
   max-width: 649px; //File width
   background-image: url("/assets/images/MonotoneFace.png");
   background-size: cover;
@@ -94,14 +95,19 @@
 	  padding: 40px;
 	}
 
+		.expertise__image img {
+			width: 100px;
+			height: auto;
+		}
+
 		.expertise__block__title {
+		  font-family: $title-font;
 		  margin-top: 20px;
 		  margin-bottom: 10px;
 		}
 
-		.expertise__image img {
-			width: 100px;
-			height: auto;
+		.expertise__description {
+		  color: $silver;
 		}
 
 
