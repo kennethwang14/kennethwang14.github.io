@@ -2,11 +2,12 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 
-.home__wrapper {
+.home__header {
 	margin-left: 12vw;
 	margin-top: 12vh;
 	padding: 50px;
 	max-width: 60vw;
+	position: relative;
 }
 
 	.introduction {
@@ -48,7 +49,15 @@
 	}
 
 
-
+.home__monotoneFace { 
+  width:33vw;
+  max-width: 649px; //File width
+  background-image: url("/assets/images/MonotoneFace.png");
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
 
 
 
