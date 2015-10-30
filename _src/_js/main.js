@@ -13,5 +13,5 @@ $(function(){
       $(".homeAnimation4").delay(600).animate({ opacity: 1 }, 1200);​
       $(".introduction .fancy-hr").delay(600).animate({ opacity: 1 }, 1200);​
       $(".homeAnimation5").delay(700).animate({ opacity: 1 }, 1200);​
-      $(".typed-cursor").delay(700).css({ display:inline }, 1200);​
+      $(".typed-cursor").delay(700).css({ display:inline });​
  });
