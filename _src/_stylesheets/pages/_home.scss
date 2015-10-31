@@ -34,7 +34,12 @@
 		  lost-align: bottom-left;
 		  @media (max-width: 1335px) {
 	  	    width: 400px;
-	  	  }		
+	  	  }
+	  	  &:nth-child(2) {
+	  	  	@media (max-width: 1110px) {
+    		  width: 540px;
+ 			}
+	  	  }
 		}
 
 			.introduction__hello {
@@ -59,11 +64,18 @@
 			  margin-bottom: 15px;
 			  @media (max-width: 1335px) {
 	  		    font-size:28px;
-	  		  }	
+	  		  }
+	  		  @media (max-width: 1110px) {
+                font-size: 33px;
+                line-height: 1.2;
+              }
 			}
 
 .home__hr {
   max-width: 60%;
+  @media (max-width: 1110px) {
+    max-width: 95%;
+  }
 }
 
 .introduction__typewriter__wrapper {
@@ -75,6 +87,9 @@
   }
   @media (max-width: 1335px) {
     max-width: 750px;
+  }
+  @media (max-width: 1110px) {
+    max-width: 95%;
   }
 }
 
