@@ -32,21 +32,35 @@
 		  width: 465px; //Width of title text
 		  height: 200px;
 		  lost-align: bottom-left;
+		  @media (max-width: 1335px) {
+	  	    width: 400px;
+	  	  }		
 		}
 
 			.introduction__hello {
 			  position: relative;
 			  left: 6px;
+			  @media (max-width: 1335px) {
+	  		    left: 8px;
+	  		    top: 35px;
+	  		  }
 			}
 
 			.introduction__title {
 			  text-align: right;
 			  line-height: 0.8;
+			  @media (max-width: 1335px) {
+	  		    font-size:85px;
+	  		    top: 15px;
+	  		  }		
 			}
 
 			.introduction__tagline {
 			  text-align: left;
 			  margin-bottom: 15px;
+			  @media (max-width: 1335px) {
+	  		    font-size:28px;
+	  		  }	
 			}
 
 .home__hr {
