@@ -151,6 +151,9 @@
 .expertise__wrapper {
   lost-center: 60%;
   text-align: center;
+  @media (max-width: 1335px) {
+    max-width: 90%;
+  }	
 }
 
 	.expertiseTitle {
@@ -190,6 +193,9 @@
   padding: 50px;
   margin-top: 60px;
   margin-bottom: 60px;
+  @media (max-width: 1335px) {
+    max-width: 90%;
+  }
 }
 
 	.latestPosts__wrapper {
