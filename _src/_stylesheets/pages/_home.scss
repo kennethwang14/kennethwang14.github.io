@@ -160,6 +160,14 @@
     margin-top: 30px;
     margin-bottom: 30px
   }
+
+  @media (max-width: 800px) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 0px;
+  }
 }
 
 	.expertiseTitle {
@@ -173,7 +181,7 @@
 	  lost-column: 1/3 3 60px;
 	  margin-top: 40px;
 	  margin-bottom: 40px;
-	  @media (max-width: 960px) {
+	  @media (max-width: 800px) {
         lost-column: 1/1;
         lost-row: 1/3 65px;
   	  }
