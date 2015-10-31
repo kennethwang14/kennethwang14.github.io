@@ -70,10 +70,10 @@
   padding-left: 50px;
   max-width: 1050px;
   height: 66px;
-  @media (max-width: 1600px) {
+  @media (max-width: 1650px) {
     max-width: 900px;
   }
-  @media (max-width: 1300px) {
+  @media (max-width: 1335px) {
     max-width: 750px;
   }
 }
@@ -95,6 +95,10 @@
   z-index: -1;
   @media (max-width: 1600px) {
     width: 33%;
+  }
+
+  @media (max-width: 1110px) {
+    display: none!important;
   }
 }
 
