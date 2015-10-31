@@ -6,10 +6,6 @@
   margin-bottom: 20px;
 }
 
-.siteNav__logo {
-  display: none;
-}
-
 .siteNav__list {
   padding: 20px;
 }
@@ -20,7 +16,7 @@
 }
 
 .siteNav__link {
-  color: $silver;
+  color: mix(white, $silver, 20%);
   text-decoration: none;
 }
 

@@ -4,7 +4,6 @@
 
 .home__header {
 	position: relative;
-	height: 88vh;
 	border-bottom: 1px solid mix(white, $silver, 50%);
 }
 
@@ -55,8 +54,8 @@
 
 
 .home__monotoneFace { 
-  width: 600px;
-  height: 745px;
+  width: 31%;
+  height: 90%;
   background-image: url("/assets/images/MonotoneFace.png");
   background-size: cover;
   position: absolute;
