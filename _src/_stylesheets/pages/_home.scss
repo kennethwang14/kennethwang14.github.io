@@ -201,7 +201,8 @@
 	.latestPosts__wrapper {
 	  lost-column: 1/2 2 65px;
 	  @media (max-width: 960px) {
-        lost-column: 1/2 1;
+        lost-column: 1/1;
+        lost-row: 1/2 65px;
   	  }
 	}
 
@@ -211,7 +212,7 @@
 	}
 
 		.latestPosts__header__title {
-		  line-height:0.8;
+		  line-height: 0.8;
 		  color: $silver;
 		}
 
