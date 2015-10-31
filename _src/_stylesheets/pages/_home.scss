@@ -200,8 +200,9 @@
 
 	.latestPosts__wrapper {
 	  lost-column: 1/2 2 65px;
-	 // width: 430px; //Width of title text
-	 // height: 200px;
+	  @media (max-width: 960px) {
+        lost-column: 1/2 1;
+  	  }
 	}
 
 	.latestPosts__header {
