@@ -12,7 +12,7 @@
 	  margin-left: 12%;
 	  margin-top: 12vh;
 	  margin-bottom: 15vh;
-	  max-width: 60%;
+	  margin: 50px;
 	}
 
 	.introduction__textContainer__wrapper {
@@ -41,6 +41,10 @@
 			  text-align: left;
 			  margin-bottom: 15px;
 			}
+
+.home__hr {
+  max-width: 60%;
+}
 
 .introduction__typewriter__wrapper {
   padding-left: 50px;
