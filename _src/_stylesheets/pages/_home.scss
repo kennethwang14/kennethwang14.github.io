@@ -37,9 +37,13 @@
 	  	  }
 	  	  &:nth-child(2) {
 	  	  	@media (max-width: 1110px) {
-    		  width: 540px;
+    		  max-width: 540px;
  			}
 	  	  }
+	  	  @media (max-width: 960px) {
+	  	    width: 100%;
+	  	    height: 100px;
+	  	  }		
 		}
 
 			.introduction__hello {
@@ -49,14 +53,21 @@
 	  		    left: 8px;
 	  		    top: 35px;
 	  		  }
+	  		  @media (max-width: 960px) {
+	  	        left: 3px;
+	  	        top: 20px;
+	  	  	  }	
 			}
 
 			.introduction__title {
 			  text-align: right;
 			  line-height: 0.8;
 			  @media (max-width: 1335px) {
-	  		    font-size:85px;
-	  		  }		
+	  		    font-size: 85px;
+	  		  }	
+	  		  @media (max-width: 960px) {
+	  	         font-size: 65px
+	  	      }		
 			}
 
 			.introduction__tagline {
@@ -66,9 +77,12 @@
 	  		    font-size:28px;
 	  		  }
 	  		  @media (max-width: 1110px) {
-                font-size: 33px;
+                font-size: 30px;
                 line-height: 1.2;
               }
+              @media (max-width: 960px) {
+	  	        font-weight: 100;
+	  	  	  }	
 			}
 
 .home__hr {
