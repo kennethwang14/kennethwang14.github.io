@@ -16,10 +16,10 @@
 }
 
 .siteNav__link {
-  color: mix(white, $silver, 20%);
-  text-decoration: none;
+  color: mix(white, $silver, 40%);
+  font-size: 17px;
 }
 
 .active {
-  color: $body-color;
+  color: #1a1a1a;
 }
