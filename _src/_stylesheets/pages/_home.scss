@@ -12,7 +12,17 @@
 	  margin-left: 12%;
 	  margin-top: 12vh;
 	  margin-bottom: 15vh;
-	  margin: 50px;
+	  padding: 50px;
+	  
+	  @media (min-width: 1764px) {
+	    margin-left: 5%;
+	  }
+
+	  @media (min-width: 1500px) {
+	  	margin-left: 0;
+	  }
+
+
 	}
 
 	.introduction__textContainer__wrapper {
@@ -22,9 +32,7 @@
 		  lost-column: 1/2 2;
 		  width: 465px; //Width of title text
 		  height: 200px;
-		  &:last-child {
-		  	lost-align: bottom-left;
-		  }
+		  lost-align: bottom-left;
 		}
 
 			.introduction__hello {
@@ -50,6 +58,9 @@
   padding-left: 50px;
   max-width: 1050px;
   height: 66px;
+  @media (min-width: 1500px) {
+	  	max-width: 900px;
+  }
 }
 
 	.introduction__typewriter {
