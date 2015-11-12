@@ -24,6 +24,8 @@
 
 	  @media (max-width: 650px) {
 	  	padding: 30px;
+	  	margin-top: 0;
+	  	margin-bottom: 30px;
 	  }
 
 	}
@@ -213,7 +215,7 @@
 	  lost-column: 1/3 3 60px;
 	  margin-top: 40px;
 	  margin-bottom: 40px;
-	  @media (max-width: 800px) {
+	  @media (max-width: 650px) {
         lost-column: 1/1;
         lost-row: 1/3 65px;
   	  }
@@ -249,7 +251,7 @@
 
 	.latestPosts__wrapper {
 	  lost-column: 1/2 2 65px;
-	  @media (max-width: 960px) {
+	  @media (max-width: 650px) {
         lost-column: 1/1;
         lost-row: 1/2 65px;
   	  }
