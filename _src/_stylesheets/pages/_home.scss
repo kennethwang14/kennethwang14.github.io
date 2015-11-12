@@ -22,6 +22,10 @@
 	  	margin-left: 0;
 	  }
 
+	  @media (max-width: 650px) {
+	  	margin-top: 0;
+	  }
+
 	}
 
 	.introduction__textContainer__wrapper {
@@ -48,7 +52,7 @@
 	  	  @media (max-width: 960px) {
 	  	    width: 100%;
 	  	    height: 100px;
-	  	  }		
+	  	  }
 		}
 
 			.introduction__hello {
@@ -61,7 +65,11 @@
 	  		  @media (max-width: 960px) {
 	  	        left: 3px;
 	  	        top: 20px;
-	  	  	  }	
+	  	  	  }
+	  	  	  @media (max-width: 650px) {
+	  			top: 0px;
+	  			left: 2px;
+	  		  }
 			}
 
 			.introduction__title {
@@ -72,7 +80,17 @@
 	  		  }	
 	  		  @media (max-width: 960px) {
 	  	         font-size: 65px
-	  	      }		
+	  	      }
+	  	      @media (max-width: 650px) {
+	  			 font-size: 55px;
+	  			 position: relative;
+	  			 top: auto;
+	  			 bottom: auto;
+	  			 left: auto;
+	  			 right: auto;
+	  			 text-align: left;
+	  			 width: 100%;
+	  		  }
 			}
 
 			.introduction__tagline {
