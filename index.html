@@ -66,7 +66,7 @@ siteNav: home
 
 
 			<div class="latestPosts__header clearfix">
-				<h5 class="latestPosts__header__title">FEATURED WORK</h5>
+				<p class="latestPosts__header__title">FEATURED WORK</p>
 				<a class="latestPosts__viewMore" href="{{ site.baseurl }}/work/"><h6>View more →</h6></a>
 			</div>
 			{% for post in site.categories['work'] limit:1 %}
@@ -89,8 +89,8 @@ siteNav: home
 
 
 			<div class="latestPosts__header clearfix">
-				<h5 class="latestPosts__header__title">LATEST BLOG POST</h5>
-				<a class="latestPosts__viewMore" href="{{ site.baseurl }}/work/"><h6>View more →</h6></a>
+				<p class="latestPosts__header__title">LATEST BLOG POST</p>
+				<a class="latestPosts__viewMore" href="{{ site.baseurl }}/work/">View more →</a>
 			</div>
 			{% for post in site.categories['blog-posts'] limit:1 %}
 			<a class="latestPosts__post__wrapper" href="{{ post.url | prepend: site.baseurl }}/">

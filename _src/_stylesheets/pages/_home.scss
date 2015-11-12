@@ -283,6 +283,7 @@
 		  bottom: -5px;
 		  h6 {
 		    color: $silver;
+		    font-size: 14px;
 		  }
 		}
 
@@ -293,12 +294,22 @@
 
 	.latestPosts__title {
 		line-height: 1.1;
+		font-family: "Montserrat", sans-serif;
 	}
 
 		
 	.latestPosts__text__wrapper .latestPosts__description {
 	  color: $body-color;
 	  margin-top: 5px;
+	  @media (max-width: 900px) {
+        font-size: 14px;
+  	  }
+  	  @media (max-width: 700px) {
+        font-size: 16px;
+  	  }
+  	  @media (max-width: 525px) {
+        font-size: 14px;
+  	  }
 	}
 
 	/* The Media Object CSS
@@ -317,6 +328,18 @@
 	  margin-top: 20px;
 	  width: 110px;
 	  height: 110px;
+	  @media (max-width: 900px) {
+        width: 90px;
+        height: 90px;
+  	  }
+  	  @media (max-width: 700px) {
+        width: 110px;
+        height: 110px;
+  	  }
+  	  @media (max-width: 525px) {
+		width: 90px;
+        height: 90px;
+  	  }
 	  img {
 	    display:block;
 	    border-radius: 50%;
