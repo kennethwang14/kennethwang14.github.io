@@ -23,7 +23,7 @@
 	  }
 
 	  @media (max-width: 650px) {
-	  	margin-top: 0;
+	  	padding: 30px;
 	  }
 
 	}
@@ -134,11 +134,19 @@
   @media (max-width: 1110px) {
     max-width: 95%;
   }
+  @media (max-width: 650px) {
+	max-width: 100%;
+	padding-left: 0px;
+	height: auto;
+  }
 }
 
 	.introduction__typewriter {
 	  font-size: 22px;
 	  font-family: $code-font;
+	  @media (max-width: 650px) {
+	  	font-size: 18px;
+	  }
 	}
 
 
