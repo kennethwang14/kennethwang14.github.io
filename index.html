@@ -67,7 +67,7 @@ siteNav: home
 
 			<div class="latestPosts__header clearfix">
 				<p class="latestPosts__header__title">FEATURED WORK</p>
-				<a class="latestPosts__viewMore" href="{{ site.baseurl }}/work/"><h6>View more →</h6></a>
+				<a class="latestPosts__viewMore" href="{{ site.baseurl }}/work/">View more →</a>
 			</div>
 			{% for post in site.categories['work'] limit:1 %}
 			<a class="latestPosts__post__wrapper" href="{{ post.url | prepend: site.baseurl }}/">
