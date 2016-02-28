@@ -27,9 +27,18 @@
 		position: relative;
 	    top: 10px;
 	}
+
+	.siteNav__logo img {
+		@media (max-width: 400px) {
+			width: 75px;
+		}
+	}
 	
 	.siteNav__title a {
 		font-size: 35px;
+		@media (max-width: 400px) {
+			font-size: 28px;
+		}
 	}
 	
 	.siteNav__braces:first-child {
@@ -40,6 +49,9 @@
 		font-size: 35px;
 	    font-weight: 800;
 	    font-family: "anonymous-pro", serif;
+	    @media (max-width: 400px) {
+			font-size: 28px;
+		}
 	}
 
 	.siteNav__braces--startBrace {
@@ -52,11 +64,18 @@
 		border-right: 1px solid mix(white, $silver, 45%);
 		position: relative;
 		bottom: 3px;
+		@media (max-width: 400px) {
+			padding-left: 8px;
+	  		padding-right: 8px;
+		}
 	}
 
 		.siteNav__link a {
 		  color: mix(white, $silver, 45%);
 		  font-size: 17px;
+			  @media (max-width: 400px) {
+				font-size: 14px;
+			}
 		}
 
 		.siteNav__link .active { //small hack
