@@ -26,16 +26,15 @@
 	.siteNav__logo {
 		position: relative;
 	    top: 10px;
-	    padding-right: 0px;
 	}
 	
 	.siteNav__title {
-		padding-left: 0px;
+		padding-right: 10px;
 	}
-
-		.siteNav__title a {
-			font-size: 35px;
-		}
+	
+	.siteNav__title a {
+		font-size: 35px;
+	}
 	
 	.siteNav__list .siteNav__braces {
 		padding: 0;
@@ -45,8 +44,6 @@
 		font-size: 35px;
 	    font-weight: 800;
 	    font-family: "anonymous-pro", serif;
-	   	padding-left: 10px;
-	  	padding-right: 10px;
 	}
 
 	.siteNav__link {
@@ -73,6 +70,6 @@
 
 		li:nth-child(2):after {
 			@media (max-width: 777px) {
-			    content:"\A"; white-space:pre;
+			    content:"\A "; white-space:pre;
 			}
 		}
