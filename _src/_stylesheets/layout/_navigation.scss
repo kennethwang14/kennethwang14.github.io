@@ -28,16 +28,12 @@
 	    top: 10px;
 	}
 	
-	.siteNav__title {
-		padding-right: 10px;
-	}
-	
 	.siteNav__title a {
 		font-size: 35px;
 	}
 	
-	.siteNav__list .siteNav__braces {
-		padding: 0;
+	.siteNav__braces:first-child {
+		padding-left: 10px;
 	}
 
 	.siteNav__braces span {
@@ -70,6 +66,6 @@
 
 		li:nth-child(2):after {
 			@media (max-width: 777px) {
-			    content:"\A "; white-space:pre;
+			    content:"\A"; white-space:pre;
 			}
 		}
