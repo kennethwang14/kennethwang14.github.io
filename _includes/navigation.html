@@ -6,16 +6,25 @@
 	<nav class="siteNav">
 		<ul class="siteNav__list">
 			<li>
-				<a class="siteNav__link {% if page.siteNav == 'home' %}active{% endif %}" href="{{ site.baseurl }}/">HOME</a>
+				<img src="{{ site.baseurl }}/assets/images/responsive-design.png" />
 			</li>
 			<li>
-				<a class="siteNav__link {% if page.siteNav == 'work' %}active{% endif %}" href="{{ site.baseurl }}/work/">PORTFOLIO</a>
+				<span class="siteNav__braces">{</span>
 			</li>
 			<li>
-				<a class="siteNav__link {% if page.siteNav == 'blog' %}active{% endif %}" href="{{ site.baseurl }}/design-solutions/">BLOG</a>
+				<a class="siteNav__link {% if page.siteNav == 'home' %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 			</li>
 			<li>
-				<a class="siteNav__link {% if page.siteNav == 'blog' %}active{% endif %}" href="{{ site.baseurl }}/design-solutions/">CONTACT</a>
+				<a class="siteNav__link {% if page.siteNav == 'work' %}active{% endif %}" href="{{ site.baseurl }}/work/">Portfolio</a>
+			</li>
+			<li>
+				<a class="siteNav__link {% if page.siteNav == 'blog' %}active{% endif %}" href="{{ site.baseurl }}/design-solutions/">Blog</a>
+			</li>
+			<li>
+				<a class="siteNav__link {% if page.siteNav == 'blog' %}active{% endif %}" href="{{ site.baseurl }}/design-solutions/">Contact</a>
+			</li>
+			<li>
+				<span class="siteNav__braces">}</span>
 			</li>
 		</ul>
 	</nav>
