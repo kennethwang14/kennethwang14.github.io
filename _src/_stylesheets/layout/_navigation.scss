@@ -20,8 +20,6 @@
 
 	.siteNav__list li {
 	  display: inline;
-	  padding-left: 10px;
-	  padding-right: 10px;
 	  margin: 0px;
 	}
 
@@ -47,9 +45,13 @@
 		font-size: 35px;
 	    font-weight: 800;
 	    font-family: "anonymous-pro", serif;
+	   	padding-left: 10px;
+	  	padding-right: 10px;
 	}
 
 	.siteNav__link {
+		padding-left: 10px;
+	  	padding-right: 10px;
 		border-right: 1px solid mix(white, $silver, 45%);
 		position: relative;
 		bottom: 3px;
@@ -67,10 +69,6 @@
 
 		.siteNav__list li:nth-child(7) {
 			border-right: none;
-		}
-
-		.siteNav__list li:nth-child(1) {
-			padding-left: 0;
 		}
 
 		li:nth-child(2):after {
