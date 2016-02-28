@@ -31,12 +31,15 @@
 	.siteNav__title span {
 		font-size: 35px;
 	}
+	
+	.siteNav__braces .siteNav__braces { //tiny specificity hack
+		padding: 0;
+	}
 
 	.siteNav__braces span {
 		font-size: 35px;
 	    font-weight: 800;
 	    font-family: "anonymous-pro", serif;
-	    padding: 0;
 	}
 
 	.siteNav__link {
