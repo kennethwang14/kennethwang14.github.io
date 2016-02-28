@@ -22,11 +22,11 @@
   font-size: 17px;
 }
 
-.siteNav__link:not(:last-child) {
-	border-right: 1px solid black;
+.siteNav__link:nth-last-child(n+2) { //all but last
+	border-right: 1px solid mix(white, $silver, 45%);
 }
 
-.active {
+.active .active { //small hack
   color: rgb(25, 25, 25);
 }
 
