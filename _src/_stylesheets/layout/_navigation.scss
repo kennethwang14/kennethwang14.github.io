@@ -25,15 +25,19 @@
 	  margin: 0px;
 	}
 
-	.siteNav__logo img {
+	.siteNav__logo {
 		position: relative;
 	    top: 10px;
-	    left: 25px;
+	    padding-right: 0px;
+	}
+	
+	.siteNav__title {
+		padding-left: 0px;
 	}
 
-	.siteNav__title a {
-		font-size: 35px;
-	}
+		.siteNav__title a {
+			font-size: 35px;
+		}
 	
 	.siteNav__list .siteNav__braces {
 		padding: 0;
