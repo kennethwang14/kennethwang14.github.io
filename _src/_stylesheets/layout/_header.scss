@@ -17,9 +17,13 @@
   margin: 0px;
 }
 
-.siteNav__link {
+.siteNav__link a {
   color: mix(white, $silver, 45%);
   font-size: 17px;
+}
+
+.siteNav__link:not(:last-child) {
+	border-right: 1px solid black;
 }
 
 .active {

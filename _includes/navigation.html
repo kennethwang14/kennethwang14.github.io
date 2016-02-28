@@ -14,17 +14,17 @@
 			<li class="siteNav__braces">
 				<span>{</span>
 			</li>
-			<li>
-				<a class="siteNav__link {% if page.siteNav == 'home' %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+			<li class="siteNav__link">
+				<a class="{% if page.siteNav == 'home' %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 			</li>
-			<li>
-				<a class="siteNav__link {% if page.siteNav == 'work' %}active{% endif %}" href="{{ site.baseurl }}/work/">Portfolio</a>
+			<li class="siteNav__link">
+				<a class="{% if page.siteNav == 'work' %}active{% endif %}" href="{{ site.baseurl }}/work/">Portfolio</a>
 			</li>
-			<li>
-				<a class="siteNav__link {% if page.siteNav == 'blog' %}active{% endif %}" href="{{ site.baseurl }}/design-solutions/">Blog</a>
+			<li class="siteNav__link">
+				<a class="{% if page.siteNav == 'blog' %}active{% endif %}" href="{{ site.baseurl }}/design-solutions/">Blog</a>
 			</li>
-			<li>
-				<a class="siteNav__link {% if page.siteNav == 'blog' %}active{% endif %}" href="{{ site.baseurl }}/design-solutions/">Contact</a>
+			<li class="siteNav__link">
+				<a class="{% if page.siteNav == 'blog' %}active{% endif %}" href="{{ site.baseurl }}/design-solutions/">Contact</a>
 			</li>
 			<li class="siteNav__braces">
 				<span>}</span>
