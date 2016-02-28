@@ -12,7 +12,7 @@ permalink: /:categories/:title
 #
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 # The release of Jekyll Now that you're using
 version: v1.1.0

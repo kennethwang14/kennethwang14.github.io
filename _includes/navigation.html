@@ -5,11 +5,14 @@
 <section class="navigation">
 	<nav class="siteNav">
 		<ul class="siteNav__list">
-			<li>
+			<li class="siteNav__logo">
 				<img src="{{ site.baseurl }}/assets/images/responsive-design.png" />
 			</li>
-			<li>
-				<span class="siteNav__braces">{</span>
+			<li class="siteNav__title">
+				<span>KenDevDesigns</span>
+			</li>
+			<li class="siteNav__braces">
+				<span>{</span>
 			</li>
 			<li>
 				<a class="siteNav__link {% if page.siteNav == 'home' %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
@@ -23,8 +26,8 @@
 			<li>
 				<a class="siteNav__link {% if page.siteNav == 'blog' %}active{% endif %}" href="{{ site.baseurl }}/design-solutions/">Contact</a>
 			</li>
-			<li>
-				<span class="siteNav__braces">}</span>
+			<li class="siteNav__braces">
+				<span>}</span>
 			</li>
 		</ul>
 	</nav>
