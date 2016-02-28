@@ -22,13 +22,18 @@
   font-size: 17px;
 }
 
-.siteNav__link:nth-last-child(n+2) { //all but last
+.siteNav__link .active { //small hack
+  color: rgb(25, 25, 25);
+}
+
+.siteNav__link {
 	border-right: 1px solid mix(white, $silver, 45%);
 }
 
-.active .active { //small hack
-  color: rgb(25, 25, 25);
+.siteNav__link:last-child {
+	border-right: none!important; //guarantees that last link will not have border
 }
+
 
 .siteNav__logo img {
 	position: relative;
