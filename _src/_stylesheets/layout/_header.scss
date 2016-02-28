@@ -30,11 +30,8 @@
 	border-right: 1px solid mix(white, $silver, 45%);
 }
 
-.siteNav__link:nth-child(4) {
-	border-right: none!important; //guarantees that last link will not have border
-}
-.siteNav__link:nth-child(3) {
-	border-right: none!important; //guarantees that last link will not have border
+.siteNav__list li:nth-child(7) {
+	border-right: none;
 }
 
 
