@@ -68,3 +68,9 @@
 		.siteNav__list li:nth-child(1) {
 			padding-left: 0;
 		}
+
+		li:nth-child(2):after {
+			@media (max-width: 777px) {
+			    content:"\A"; white-space:pre;
+			}
+		}
