@@ -10,7 +10,7 @@ $(function() {
  $('.magnific').magnificPopup({
   type: 'image',
   mainClass: 'mfp-with-zoom', // this class is for CSS animation below
-
+  overflowY: 'scroll',
   zoom: {
     enabled: true, // By default it's false, so don't forget to enable it
 
