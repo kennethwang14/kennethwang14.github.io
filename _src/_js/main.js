@@ -11,6 +11,10 @@ $(function() {
   type: 'image',
   mainClass: 'mfp-with-zoom', // this class is for CSS animation below
   overflowY: 'scroll',
+  closeOnContentClick: true,
+  closeOnBgClick: true,
+  showCloseBtn: false,
+  enableEscapeKey: true,
   zoom: {
     enabled: true, // By default it's false, so don't forget to enable it
 
