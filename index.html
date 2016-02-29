@@ -70,11 +70,11 @@ siteNav: home
 			{% for post in site.categories['portfolio'] limit:1 %}
 			<a class="latestPosts__post__wrapper" href="{{ post.url | prepend: site.baseurl }}/">
 				<div class="latestPosts__thumbnail">
-					<img src="/assets/images/{{ post.thumbnail }}">
+					<img src="/assets/images/{{ post.tinyThumbnail }}">
 				</div>
 				<div class="latestPosts__text__wrapper">
 					<p class="latestPosts__title" >{{ post.title }}</p>
-					<h5 class="latestPosts__description">{{ post.description }}</h5>
+					<h5 class="latestPosts__description">{{ post.shortDescription }}</h5>
 				</div>
 			</a>
 			{% endfor %}
