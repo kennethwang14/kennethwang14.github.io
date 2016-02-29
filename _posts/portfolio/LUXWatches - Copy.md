@@ -2,7 +2,7 @@
 title: "LUXWatches"
 
 siteNav: portfolio
-date: 2014-06-08
+date: "February 10, 2014"
 categories:
   - portfolio
 
