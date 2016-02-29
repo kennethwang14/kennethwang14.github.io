@@ -10,7 +10,8 @@
 @import
   'vendor/normalize',
   'vendor/reset',
-  'vendor/cursor';
+  'vendor/cursor',
+  'vendor/magnific';
 
 // 3. Base stuff
 @import
@@ -26,7 +27,7 @@
 // 5. Components
 @import
   'components/buttons';
-
+  
 // 6. Page-specific styles
 @import
   'pages/home',
