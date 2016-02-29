@@ -1,3 +1,40 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+.button {
+  border: 0 none;
+  border-radius: 24px;
+  padding: 12px 18px;
+  margin: 10px;
+  text-align: center;
+   
+  transition: all 100ms ease-in-out;
+
+  &:hover {
+    opacity: .9;
+    transition: all 100ms ease;
+  }
+  
+  &:active {
+    opacity: .75;
+    transform: scale(.97);
+    transition: all 100ms ease;
+  }
+}
+
+.button__theme {
+  background: $theme-color;
+  color: white;
+}
+
+.button__transparent {
+  background: transparent;
+  border: 2px solid $theme-color;
+  color: $theme-color;
+  
+  &:hover, &.-active {
+    background: $theme-color;
+    border-color: $theme-color;
+    color: $white;
+  }
+}

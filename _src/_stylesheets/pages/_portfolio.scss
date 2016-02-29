@@ -56,8 +56,11 @@
     font-weight: 800;
   }
 
+  .portfolio__card__description {
+    margin-bottom: 20px;
+  }
+
   .portfolio__card__testimonial {
-    margin-top: 20px;
     margin-bottom: 20px;
     border: 2px solid $theme-color;
     color: $theme-color;
@@ -76,7 +79,8 @@
     font-weight: 800;
   }
 
-  .portfolio__card__technologies span {
+  .portfolio__card__technologies
+   span {
     font-weight: 800;
   }
 

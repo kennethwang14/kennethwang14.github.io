@@ -2,7 +2,7 @@
 title: "LUXWatches"
 
 siteNav: portfolio
-date: "February 10, 2014"
+month: "February 2014"
 categories:
   - portfolio
 
@@ -22,5 +22,6 @@ testimonial: "I approached Kenneth, asking him to redesign LUXWATCHES with a tig
 testimonialAuthor: "Peter Szurek"
 testimonialPosition: "CEO"
 
+active: "http://luxwatches.co"
 
 ---
