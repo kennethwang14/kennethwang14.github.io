@@ -14,8 +14,13 @@ permalink: /portfolio/
 				<p class="portfolio__card__description">{{ post.description }}</p>
 
 				{% if post.testimonial %}
-				<p>Test</p>
+				<p class="portfolio__card__testimonial">
+					{{ post.testimonial }}
+					<span class="portfolio__card__testimonialAuthor">-{{ post.testimonialAuthor }}, {{ post.testimonialPosition }} of {{ post.title }}</span>
+				</p>
 				{% endif %}
+
+				<p class="portfolio__card__technologies"><span>Technologies used:</span> {{ post.technologies }}</p>
 			</div>
 			<div class="portfolio__card__imageArea">
 				<a href="{{ site.url }}/assets/images/{{ post.image1 }}" class="magnific">
