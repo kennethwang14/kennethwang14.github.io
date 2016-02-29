@@ -1,5 +1,5 @@
 ---
-title: "MintNBasil"
+title: "Mint & Basil"
 
 siteNav: portfolio
 month: "November 2015"
