@@ -21,12 +21,12 @@ permalink: /portfolio/
 				{% endif %}
 
 				<h6 class="portfolio__card__date"><span>Date:</span> {{ post.month }}<h6>
-				<h6 class="portfolio__card__technologies"><span>Built with:</span> {{ post.technologies }}<h6>
+				<h6 class="portfolio__card__technologies"><span>Built with:</span> {{ post.technologies }}</h6>
 
 				{% if post.active %}
-				<a href="{{ post.active }}" target="_blank">
+				<a href="{{ post.active }}" target="_blank" class="portfolio__card__button">
 					<div class="button button__theme">
-						<h2>Visit Site</h2>
+						<h4>Visit Site</h4>
 					</div>
 				</a>
 				{% endif %}

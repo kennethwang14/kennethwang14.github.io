@@ -23,7 +23,7 @@
 }
 
 .button__theme {
-  background: $theme-color;
+  background: mix(black, $theme-color, 20%);
   color: white;
 }
 
