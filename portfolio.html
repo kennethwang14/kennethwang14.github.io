@@ -14,13 +14,13 @@ permalink: /portfolio/
 				<p class="portfolio__card__description">{{ post.description }}</p>
 			</div>
 			<div class="portfolio__card__imageArea">
-				<a href="{{ post.image1 }}">
-					<img src="{{ post.image1thumb }}" />
+				<a href="{{ site.url }}/assets/images/{{ post.image1 }}">
+					<img src="{{site.url}}/assets/images/{{ post.image1thumb }}" />
 				</a>
 			</div>
 			<div class="portfolio__card__imageArea">
-				<a href="{{ post.image2 }}">
-					<img src="{{ post.image2thumb }}" />
+				<a href="{{ site.url }}/assets/images/{{ post.image2 }}">
+					<img src="{{ site.url }}/assets/images/{{ post.image2thumb }}" />
 				</a>
 			</div>
 		</div>
