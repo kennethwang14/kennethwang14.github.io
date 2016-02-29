@@ -1,8 +1,12 @@
 .portfolio__mainContainer {
   background-color: $light-background;
+  height: 100%;
+  padding-top: 5%;
 }
 
 .portfolio__card {
+  margin: auto;
+  padding: 40px;
   position: relative;
   text-decoration: none;
   box-sizing: border-box;

@@ -6,11 +6,12 @@ permalink: /portfolio/
 
 <section class="portfolio__mainContainer">
 	{% for post in site.categories['portfolio'] %}
+		<h1 class="portfolio__title">Portfolio</h1>
 		<div class="portfolio__card">
 			<div class="portfolio__card__textArea">
-				<span class="portfolio__card__role">{{ post.role }}</span>
-				<span class="portfolio__card__title">{{ post.title }}</span>
-				<span class="portfolio__card__description">{{ post.description }}</span>
+				<h5 class="portfolio__card__role">{{ post.role }}</h5>
+				<h2 class="portfolio__card__title">{{ post.title }}</h2>
+				<p class="portfolio__card__description">{{ post.description }}</p>
 			</div>
 			<div class="portfolio__card__imageArea"></div>
 			<div class="portfolio__card__imageArea"></div>
