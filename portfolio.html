@@ -15,12 +15,13 @@ permalink: /portfolio/
 
 				{% if post.testimonial %}
 				<p class="portfolio__card__testimonial">
-					{{ post.testimonial }}
+					"{{ post.testimonial }}"
 					<span class="portfolio__card__testimonialAuthor">-{{ post.testimonialAuthor }}, {{ post.testimonialPosition }} of {{ post.title }}</span>
 				</p>
 				{% endif %}
 
-				<p class="portfolio__card__technologies"><span>Technologies used:</span> {{ post.technologies }}</p>
+				<h6 class="portfolio__card__date"><span>Date:</span> {{ post.date }}<h6>
+				<h6 class="portfolio__card__technologies"><span>Built with:</span> {{ post.technologies }}<h6>
 			</div>
 			<div class="portfolio__card__imageArea">
 				<a href="{{ site.url }}/assets/images/{{ post.image1 }}" class="magnific">

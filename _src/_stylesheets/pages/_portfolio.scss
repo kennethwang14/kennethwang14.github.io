@@ -56,6 +56,31 @@
     font-weight: 800;
   }
 
+  .portfolio__card__testimonial {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid $theme-color;
+    color: $theme-color;
+    padding: 20px;
+    font-style: italic;
+  }
+
+  .portfolio__card__testimonialAuthor {
+    display: block;
+    text-align: right;
+    font-weight: 800;
+    margin-top: 10px;
+  }
+
+  .portfolio__card__date span {
+    font-weight: 800;
+  }
+
+  .portfolio__card__technologies span {
+    font-weight: 800;
+  }
+
+
 .portfolio__card__imageArea {
   lost-column: 1/3;
 }
