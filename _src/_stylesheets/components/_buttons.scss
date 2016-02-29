@@ -5,8 +5,8 @@
   border: 0 none;
   border-radius: 24px;
   padding: 12px 18px;
-  margin: 10px;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
    
   transition: all 100ms ease-in-out;
 
@@ -23,7 +23,7 @@
 }
 
 .button__theme {
-  background: mix(black, $theme-color, 20%);
+  background: mix(black, $theme-color, 10%);
   color: white;
 }
 
