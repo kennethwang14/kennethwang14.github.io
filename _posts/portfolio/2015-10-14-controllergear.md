@@ -2,7 +2,7 @@
 title: "ControllerGear"
 
 siteNav: portfolio
-month: "March 2015"
+month: "October 2015"
 categories:
   - portfolio
 

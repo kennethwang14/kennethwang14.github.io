@@ -2,7 +2,7 @@
 title: "Evenings At Saint Patrick"
 
 siteNav: portfolio
-month: "July 2014"
+month: "February 2015"
 categories:
   - portfolio
 

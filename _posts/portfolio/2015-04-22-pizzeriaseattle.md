@@ -2,7 +2,7 @@
 title: "Pizzeria Seattle"
 
 siteNav: portfolio
-month: "July 2014"
+month: "April 2015"
 categories:
   - portfolio
 
@@ -13,7 +13,7 @@ image2thumb: portfolio/PizzeriaSeattle/PizzeriaSeattle2Thumb.png
 
 tinyThumbnail: placeholder/thumbnail.jpg
 
-role:              "UX/UI Design, Design Direction & Front-end Dev"
+role:              "UX/UI Design, Frontend & Backend Development"
 description:       "This is the website for Pizzeria Seattle, a new Italian restaurant. It features an online menu as well as an interactive booking system. The design layout was created with the goal of getting Pizzeria Seattle more customers. I also created the logo based on graphics found online (license purchased).
 <br /><br />
 The frontend was built entirely in WordPress using HTML5, CSS3, and jQuery. The backend uses a modified version of WordPress and WooCommerce features custom plugins."

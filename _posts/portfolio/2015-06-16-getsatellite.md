@@ -2,7 +2,7 @@
 title: "GetSatellite"
 
 siteNav: portfolio
-month: "April 2014"
+month: "June 2015"
 categories:
   - portfolio
 
@@ -13,7 +13,7 @@ image2thumb: portfolio/GetSatellite/GetSatellite2Thumb.png
 
 tinyThumbnail: placeholder/thumbnail.jpg
 
-role:              "UX/UI Design, Design Direction & Front-end Dev"
+role:              "UX/UI Design, Frontend & Backend Development"
 description:       "I worked together with Satellite Country, one of the biggest DISH retailers in the United States, to redesign their previous website. The goal of the redesign was to give the website a fresh and modern look, while also generating more leads and customers. The client also wanted an easy to use content-management-system so employees with no development experience could easily modify the website’s content, so the website was built on top of a heavily modified version of WordPress.
 <br /><br />
 In total, the website contains over 300 pages, and over 10 custom plugins, including a TV channel overview system. The client was very satisfied with the end result."
