@@ -5,13 +5,17 @@ permalink: /portfolio/
 ---
 
 <section class="portfolio__mainContainer">
+	<h1 class="portfolio__title">Portfolio</h1>
 	{% for post in site.categories['portfolio'] %}
-		<h1 class="portfolio__title">Portfolio</h1>
 		<div class="portfolio__card">
 			<div class="portfolio__card__textArea">
 				<h6 class="portfolio__card__role">{{ post.role }}</h6>
 				<h2 class="portfolio__card__title">{{ post.title }}</h2>
 				<p class="portfolio__card__description">{{ post.description }}</p>
+
+				{% if post.testimonial %}
+				<p>Test</p>
+				{% endif %}
 			</div>
 			<div class="portfolio__card__imageArea">
 				<a href="{{ site.url }}/assets/images/{{ post.image1 }}" class="magnific">
