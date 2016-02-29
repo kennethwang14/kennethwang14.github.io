@@ -4,18 +4,16 @@ siteNav: portfolio
 permalink: /portfolio/
 ---
 
-<section class="test">
-	<h1>H1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure repellendus officia repellat assumenda harum nostrum, excepturi incidunt voluptate alias, quibusdam eos culpa. Odio mollitia delectus nisi, fugit, ad dolor doloremque?</h1>
-	<hr>
-	<h2>H2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur inventore libero obcaecati maiores repudiandae sequi recusandae ducimus laborum debitis? Culpa, eos, incidunt. Quo commodi ipsum beatae! Cumque tempora, nihil numquam</h2>
-	<hr>
-	<h3>H3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, pariatur at omnis non modi quae porro quos alias quidem consequuntur laborum aut consequatur fuga, necessitatibus possimus perspiciatis dolor qui quas.</h3>
-	<hr>
-	<h4>H4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, mollitia, vel? Qui recusandae veniam neque dolorem eius itaque accusamus doloribus dignissimos similique optio illo ratione maxime, fuga, incidunt, iusto adipisci.</h4>
-	<hr>
-	<h5>H5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores aliquid molestias, ut! Reprehenderit molestias debitis deleniti fugiat ipsam aperiam obcaecati nihil suscipit nobis ab accusamus vero maiores, similique, dolore saepe.</h5>
-	<hr>
-	<h6>H6 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, veniam libero! Veritatis autem similique inventore, placeat minus exercitationem beatae vel eum qui. Sunt, illo labore. Vero nesciunt sunt dolore odit.</h6>
-	<hr>
-	<p>P Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur repellat quas dolores ea asperiores quia, illum, facilis debitis voluptates unde qui minima sit molestiae aliquid, libero laudantium blanditiis incidunt! Vitae!</p>
+<section class="portfolio__mainContainer">
+	{% for post in site.categories['work'] %}
+		<div class="portfolio__card">
+			<div class="portfolio__card__textArea">
+				<span class="portfolio__card__role">{{ post.role }}</span>
+				<span class="portfolio__card__title">{{ post.title }}</span>
+				<span class="portfolio__card__description">{{ post.description }}</span>
+			</div>
+			<div class="portfolio__card__imageArea"></div>
+			<div class="portfolio__card__imageArea"></div>
+		</div>
+	{% endfor %}
 </section>
