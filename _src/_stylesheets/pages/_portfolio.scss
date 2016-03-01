@@ -50,6 +50,10 @@
 
 .portfolio__card__textArea {
   lost-column: 1/3;
+  @media (max-width: 1279px) {
+	    lost-column: 1/1;
+	    lost-row: 1/2;
+	}
 }
 
   .portfolio__card__role {
@@ -110,4 +114,8 @@
 
 .portfolio__card__imageArea {
   lost-column: 1/3;
+    @media (max-width: 1279px) {
+	    lost-column: 1/2;
+	    lost-row: 1/2;
+	}
 }
