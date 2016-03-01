@@ -176,3 +176,12 @@
 		display: none;
 	}
 }
+
+.portfolio__card .portfolio__card__imageArea--full {
+	lost-column: 2/3;
+	@media (max-width: 1279px) {
+	    lost-column: 1/1;
+	    margin-top: 35px;
+	    width: 100%;
+	}
+}
