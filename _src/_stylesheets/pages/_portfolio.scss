@@ -120,6 +120,7 @@
 .portfolio__card__imageArea {
   lost-column: 1/3;
     @media (max-width: 1279px) {
+    	clear-left: none!important;
 	    lost-column: 1/2 30px;
 	}
 }
