@@ -6,8 +6,8 @@ month: "August 2014"
 categories:
   - portfolio
 
-image1: portfolio/GrayMatterPhotography/GrayMatterPhotography2Full.png
-image1thumb: portfolio/GrayMatterPhotography/GrayMatterPhotography2Thumb.png
+image1: portfolio/GrayMatterPhotography/GrayMatterPhotography1Full.png
+image1thumb: portfolio/GrayMatterPhotography/GrayMatterPhotography1Thumb.png
 
 tinyThumbnail: placeholder/thumbnail.jpg
 
