@@ -31,16 +31,24 @@ permalink: /portfolio/
 				</a>
 				{% endif %}
 			</div>
+			{% if image2 %}
 			<div class="portfolio__card__imageArea">
 				<a href="{{ site.url }}/assets/images/{{ post.image1 }}" class="magnific">
 					<img src="{{site.url}}/assets/images/{{ post.image1thumb }}" />
 				</a>
 			</div>
-			<div class="portfolio__card__imageArea">
+			<div class="portfolio__card__imageArea portfolio__card__imageArea--two">
 				<a href="{{ site.url }}/assets/images/{{ post.image2 }}" class="magnific">
 					<img src="{{ site.url }}/assets/images/{{ post.image2thumb }}" />
 				</a>
 			</div>
+			{% else %}
+			<div class="portfolio__card__imageArea portfolio__card__imageArea--full">
+				<a href="{{ site.url }}/assets/images/{{ post.image1 }}" class="magnific">
+					<img src="{{site.url}}/assets/images/{{ post.image1thumb }}" />
+				</a>
+			</div>
+			{% endif %}
 		</div>
 	{% endfor %}
 </section>
