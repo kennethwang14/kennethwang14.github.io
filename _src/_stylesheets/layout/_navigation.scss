@@ -123,7 +123,7 @@
   opacity: 0;
   -webkit-transition: all 0ms cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 0ms cubic-bezier(0.19, 1, 0.22, 1);
-  border: 2px solid $theme-color;
+  border: 1px solid $theme-color;
 }
 
 .contact__expanded .contact__circle {
@@ -131,17 +131,17 @@
   transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   -webkit-transition-delay: 200ms;
           transition-delay: 200ms;
-  -webkit-transform: scale(30);
-          transform: scale(30);
+  -webkit-transform: scale(100);
+          transform: scale(100);
 }
 
 .contact__expanded .contact__circle:before {
-  -webkit-transform: scale(6);
-          transform: scale(6);
+  -webkit-transform: scale(16);
+          transform: scale(16);
   opacity: 1;
   -webkit-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
-  border: 3px solid $theme-color;
+  border: 1px solid $theme-color;
 }
 
 .contact__content {
