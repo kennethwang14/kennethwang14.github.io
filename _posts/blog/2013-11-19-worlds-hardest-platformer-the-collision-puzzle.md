@@ -8,8 +8,7 @@ categories:
   - blog
   - gamedev
 
-thumbnail: placeholder/thumbnail.jpg
-image: placeholder/thumbnail.jpg
+thumbnail: blog/whp-collision-puzzle/thumbnail.png
 
 description: "Memory optimizations."
 ---

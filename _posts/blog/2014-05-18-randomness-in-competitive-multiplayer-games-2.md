@@ -8,8 +8,7 @@ categories:
   - blog
   - gamedesign
 
-thumbnail: placeholder/thumbnail.jpg
-image: placeholder/thumbnail.jpg
+thumbnail: blog/randomness-competitive-multiplayer-games/thumbnail.png
 
 description: "Memory optimizations."
 ---

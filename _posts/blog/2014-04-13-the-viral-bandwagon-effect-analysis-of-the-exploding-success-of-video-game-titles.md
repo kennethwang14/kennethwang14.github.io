@@ -8,8 +8,7 @@ categories:
   - blog
   - gamedesign
 
-thumbnail: placeholder/thumbnail.jpg
-image: placeholder/thumbnail.jpg
+thumbnail: blog/viral-bandwagon-effect/thumbnail.png
 
 description: "Memory optimizations."
 ---

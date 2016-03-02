@@ -8,8 +8,7 @@ categories:
   - blog
   - gamedesign
 
-thumbnail: placeholder/thumbnail.jpg
-image: placeholder/thumbnail.jpg
+thumbnail: blog/whp2-level-design/thumbnail.png
 
 description: "By manually making every single level ourselves, we were able to make sure that they were all high-quality."
 ---
