@@ -133,6 +133,7 @@
           transition-delay: 200ms;
   -webkit-transform: scale(100);
           transform: scale(100);
+  display: block;
 }
 
 .contact__expanded .contact__circle:before {
@@ -164,8 +165,4 @@
           transition-delay: 400ms;
   opacity: 1;
   display: inline;
-}
-
-.contact__show {
-	display: block;
 }
