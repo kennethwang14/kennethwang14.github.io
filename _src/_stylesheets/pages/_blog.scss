@@ -31,7 +31,17 @@
 
 .blog__post__wrapper .blog__list__title {
 	color: $theme-color;
+	font-weight: 600;
 }
+
+.blog__post__wrapper .blog__list__title:hover {
+	text-decoration: underline;
+}
+
+.blog__post__wrapper .blog__list__description {
+	color: $body-color;
+}
+
 
 .blog__post__wrapper .blog__list__description:hover {
 	color: $body-color;
