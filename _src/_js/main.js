@@ -77,7 +77,6 @@ btn.click(function(e) {
     'margin-top': -r
   }, {
     duration: 600,
-    easing: "easeInOutCubic",
     queue: false,
     complete: function() {
      circle.parent().css('background-color',
