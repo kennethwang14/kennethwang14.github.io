@@ -98,17 +98,17 @@
   -webkit-transition: all 500ms cubic-bezier(0.23, 1, 0.32, 1);
   transition: all 500ms cubic-bezier(0.23, 1, 0.32, 1);
    transition-delay: 200ms;
-   width: 300px;
+   width: 200px;
    opacity: 0; 
-   height: 0;
+   height: 200px;
    overflow: hidden;
    border: none;
    border-radius: 50%;
    background-color: $theme-color;
    display: block;
    position: absolute;
-    top: -15px;
-    left: 15px;
+    top: -100px;
+    left: -70px;
     right: 0;
     bottom: 0;
 }
@@ -119,10 +119,9 @@
   transition: all 1.5s cubic-bezier(0.215, 0.61, 0.355, 1);
   -webkit-transition-delay: 200ms;
           transition-delay: 200ms;
-  -webkit-transform: scale(15);
-          transform: scale(15);
+  -webkit-transform: scale(20);
+          transform: scale(20);
  	opacity: 1;
-    height: 300px;
 }
 
 
