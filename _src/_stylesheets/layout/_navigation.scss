@@ -139,6 +139,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  display: block;
 }
 
 .contact__expanded .contact__content {
@@ -147,5 +148,4 @@
   -webkit-transition-delay: 400ms;
           transition-delay: 400ms;
   opacity: 1;
-  display: inline;
 }
