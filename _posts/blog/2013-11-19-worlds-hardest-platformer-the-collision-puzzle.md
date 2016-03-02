@@ -10,7 +10,7 @@ categories:
 
 thumbnail: blog/whp-collision-puzzle/thumbnail.png
 
-description: "Memory optimizations."
+description: "My implementation of collision was very simple and worked perfectly for the most part for my game. However, upon testing, there was one perplexing issue with it."
 ---
 
 <span style="visibility:hidden;">+++</span>Collision detection had been a huge obstacle for my game. Like many other tile-based 2D platformers, I used rectangles as my collision bounds. I had four rectangles on my Block: one on each side to tell which side triggers collision.

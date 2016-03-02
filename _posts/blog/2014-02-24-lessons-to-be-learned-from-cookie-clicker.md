@@ -10,7 +10,7 @@ categories:
 
 thumbnail: blog/lessons-to-be-learned-cookie-clicker/thumbnail.png
 
-description: "Memory optimizations."
+description: "Cookie Clicker quickly went viral after its release and imprisoned the mind of all its users with its addictive nature."
 ---
 
 <span style="visibility:hidden;">+++</span><span style="line-height:1.5;">In August 2013, a new internet sensation raided the online world: <a title="Cookie Clicker" href="http://orteil.dashnet.org/cookieclicker/" target="_blank">Cookie Clicker</a>. The game quickly went viral after its release and imprisoned the mind of all its users with its addictive nature. </span><span style="line-height:1.5;">Cookie Clicker is, in essence, a simple game where you gain cookies by clicking on a gigantic cookie. You can also invest in different options with your existing cookies to gain even more cookies. That’s all there is to it. There is no goal; no objective (except to bake more cookies!). Even the developer himself commented in a reddit Ask Me Anything that the game was developed as a joke.</span>

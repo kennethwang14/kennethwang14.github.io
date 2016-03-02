@@ -10,7 +10,7 @@ categories:
 
 thumbnail: blog/viral-bandwagon-effect/thumbnail.png
 
-description: "Memory optimizations."
+description: "After months of going unnoticed, the game Flappy Bird suddenly and quickly soared up to the number 1 rank in both the App Store and the Play Store."
 ---
 
 &nbsp;

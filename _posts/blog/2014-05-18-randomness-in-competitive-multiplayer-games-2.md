@@ -10,7 +10,7 @@ categories:
 
 thumbnail: blog/randomness-competitive-multiplayer-games/thumbnail.png
 
-description: "Memory optimizations."
+description: "What is the role of randomness in competitive multiplayer games and eSports? Is it a good thing or is it a bad thing?"
 ---
 
 <img class="aligncenter" src="http://assets1.ignimgs.com/vid/thumbnails/user/2014/04/12/maxresdefault-(1).jpg" alt="" width="1920" height="1080" />

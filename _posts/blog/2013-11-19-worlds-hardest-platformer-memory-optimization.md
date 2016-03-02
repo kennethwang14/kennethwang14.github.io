@@ -10,7 +10,7 @@ categories:
 
 thumbnail: blog/whp-memory-optimization/thumbnail.png
 
-description: "Memory optimizations."
+description: "Memory optimization and coding efficiency is extremely important for any precision and timing based game."
 ---
 
 <span style="visibility:hidden;">+++</span><span style="line-height:1.5;">Precision and timing are two of the most important factors in World’s Hardest Platformer. However, the user’s sense of precision and timing would be completely distorted if lag occurs. That is why memory optimization and coding efficiency are extremely important for my game, combined with the fact that a vast amount of Android devices have low RAM.</span>

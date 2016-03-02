@@ -10,7 +10,7 @@ categories:
 
 thumbnail: blog/video-games-ultimate-storytelling-tool/thumbnail.png
 
-description: "Memory optimizations."
+description: "Games are the ultimate medium for storytelling, and game designers should prioritize accordingly."
 ---
 
 &nbsp;
