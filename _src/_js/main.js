@@ -37,4 +37,5 @@ $(function() {
 $(".contact").on('click', function(){
   $("body").toggleClass("contact__expanded");
   $(this).parent(".siteNav__link").toggleClass("contact__expanded");
+  $(".contact__circle").toggleClass("contact__show");
 });
