@@ -12,7 +12,7 @@ image1thumb: portfolio/NewOrderEsports/NewOrderEsports1Thumb.png
 tinyThumbnail: placeholder/thumbnail.jpg
 
 role:              "UX/UI Design, Frontend & Backend Development"
-description:       "I was contracted to create the website for New Order Esports, a professional Esports organization that specializes in Hearthstone. The website was built with WordPress CMS at the request of the client. It features a blogging area, Twitch integration, as well as an Events component.""
+description:       "I was contracted to create the website for New Order Esports, a professional Esports organization that specializes in Hearthstone. The website was built with WordPress CMS at the request of the client. It features a blogging area, Twitch integration, as well as an Events component."
 
 shortDescription: "I was contracted to create the website for New Order Esports, a professional Esports organization that specializes in Hearthstone."
 

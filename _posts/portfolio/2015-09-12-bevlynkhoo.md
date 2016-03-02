@@ -6,10 +6,10 @@ month: "September 2015"
 categories:
   - portfolio
 
-image1: portfolio/ControllerGear/BevlynKhoo1Full.png
-image1thumb: portfolio/ControllerGear/BevlynKhoo1Thumb.png
-image2: portfolio/ControllerGear/BevlynKhoo2Full.png
-image2thumb: portfolio/ControllerGear/BevlynKhoo2Thumb.png
+image1: portfolio/BevlynKhoo/BevlynKhoo1Full.png
+image1thumb: portfolio/BevlynKhoo/BevlynKhoo1Thumb.png
+image2: portfolio/BevlynKhoo/BevlynKhoo2Full.png
+image2thumb: portfolio/BevlynKhoo/BevlynKhoo2Thumb.png
 
 tinyThumbnail: placeholder/thumbnail.jpg
 
