@@ -35,6 +35,6 @@ $(function() {
 });
 
 $(".contact").on('click', function(){
-  $("body").toggleClass("contact__expanded");
-  $(this).parent(".siteNav__link").toggleClass("contact__expanded");
+  $("body").toggleClass(".contact__removeScrollbar");
+  $(".contact__content").toggleClass(".contact__animation");
 });

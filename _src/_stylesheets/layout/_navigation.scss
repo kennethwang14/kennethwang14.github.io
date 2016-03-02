@@ -93,60 +93,162 @@
 			}
 		}
 
-.contact__circle {
-  outline: none;
-  -webkit-transition: all 500ms cubic-bezier(0.23, 1, 0.32, 1);
-  transition: all 500ms cubic-bezier(0.23, 1, 0.32, 1);
-   transition-delay: 200ms;
-   width: 200px;
-   opacity: 0; 
-   height: 0;
-   overflow: hidden;
-   border: none;
-   border-radius: 50%;
-   background-color: $theme-color;
-   display: block;
-   position: absolute;
-    top: -100px;
-    left: -70px;
-    right: 0;
-    bottom: 0;
+.contact__removeScrollbar {
+	overflow: hidden;
 }
-
-
-.contact__expanded .contact__circle {
-  -webkit-transition: all 1.5s cubic-bezier(0.215, 0.61, 0.355, 1);
-  transition: all 1.5s cubic-bezier(0.215, 0.61, 0.355, 1);
-  -webkit-transition-delay: 200ms;
-          transition-delay: 200ms;
-  -webkit-transform: scale(20);
-          transform: scale(20);
- 	opacity: 1;
- 	height: 200px;
-}
-
-
 
 .contact__content {
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  -webkit-transition: all 200ms;
-  transition: all 200ms;
-  -webkit-transition-delay: 0ms;
-          transition-delay: 0ms;
-  pointer-events: none;
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: block;
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 0;
+    z-index: -1;
+    transition: z-index 0s 1s;
+    .contact__removeScrollbar & {
+		z-index: 3;
+		transition: none;
+    }
 }
 
-.contact__expanded .contact__content {
-  -webkit-transition: all 400ms;
-  transition: all 400ms;
-  -webkit-transition-delay: 400ms;
-          transition-delay: 400ms;
-  opacity: 1;
+.contact__animation {
+	position: absolute;
+	top: -500px;
+	left: -500px;
+	width: 1000px;
+	height: 1000px;
+	border-radius: 50%;
+	background: $theme-color;
+
+	@include prefix(transform, scale(0));
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	.contact__open & {
+		@include prefix(transform, scale(10));
+		-webkit-transition: -webkit-transform 1.5s, background 0s 1s;
+		transition: transform 1.5s, background 0s 1s;
+	}
+	.contact__success & {
+		background: $success;
+	}
+}
+
+//CodePen by Josh Adamous
+form {
+	width: 380px;
+	margin: 4em auto;
+	padding: 3em 2em 2em 2em;
+	background: #fafafa;
+	border: 1px solid #ebebeb;
+	box-shadow: rgba(0,0,0,0.14902) 0px 1px 1px 0px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+}
+
+.group { 
+	position: relative; 
+	margin-bottom: 45px; 
+}
+
+input {
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	-webkit-appearance: none;
+	display: block;
+	background: #fafafa;
+	color: #636363;
+	width: 100%;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #757575;
+}
+
+input:focus { outline: none; }
+
+
+/* Label */
+
+label {
+	color: #999; 
+	font-size: 18px;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	left: 5px;
+	top: 10px;
+	-webkit-transition:all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+
+/* active */
+
+input:focus ~ label, input.used ~ label {
+	top: -20px;
+  -webkit-transform: scale(.75);
+          transform: scale(.75); left: -2px;
+	/* font-size: 14px; */
+	color: #4a89dc;
+}
+
+
+/* Underline */
+
+.bar {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.bar:before, .bar:after {
+	content: '';
+	height: 2px; 
+	width: 0;
+	bottom: 1px; 
+	position: absolute;
+	background: #4a89dc; 
+	-webkit-transition:all 0.2s ease; 
+	transition: all 0.2s ease;
+}
+
+.bar:before { left: 50%; }
+
+.bar:after { right: 50%; }
+
+
+/* active */
+
+input:focus ~ .bar:before, input:focus ~ .bar:after { width: 50%; }
+
+
+/* Highlight */
+
+.highlight {
+	position: absolute;
+	height: 60%; 
+	width: 100px; 
+	top: 25%; 
+	left: 0;
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+
+/* active */
+
+input:focus ~ .highlight {
+	-webkit-animation: inputHighlighter 0.3s ease;
+	        animation: inputHighlighter 0.3s ease;
+}
+
+
+/* Animations */
+
+@-webkit-keyframes inputHighlighter {
+	from { background: #4a89dc; }
+	to 	{ width: 0; background: transparent; }
+}
+
+@keyframes inputHighlighter {
+	from { background: #4a89dc; }
+	to 	{ width: 0; background: transparent; }
 }
