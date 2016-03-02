@@ -107,6 +107,7 @@
     z-index: -1;
     .contact__open & {
 		z-index: 3;
+		transition: none!important;
     }
 }
 
