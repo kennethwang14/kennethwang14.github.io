@@ -36,5 +36,5 @@ $(function() {
 
 $(".contact").on('click', function(){
   $("body").toggleClass(".contact__removeScrollbar");
-  $(".contact__content").toggleClass(".contact__animation");
+  $(".contact__content").toggleClass("contact__animation");
 });
