@@ -42,4 +42,5 @@ $(".contact").on('click', function(){
   var top = btn[0].offsetTop + btn.height()/2;
   $(".contact__animation").css('margin-left', left);
   $(".contact__animation").css('margin-top', top);
+  $(".contact__content").css('z-index', 3);
 });
