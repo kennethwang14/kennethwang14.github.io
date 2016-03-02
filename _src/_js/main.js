@@ -37,4 +37,8 @@ $(function() {
 $(".contact").on('click', function(){
   $("body").toggleClass(".contact__removeScrollbar");
   $(".contact__content").toggleClass("contact__animation");
+  var btn = $('.contact');
+  var left = btn[0].offsetLeft + btn.width()/2;
+  var top = btn[0].offsetTop + btn.height()/2;
+  modal.find('.contact__animation').css('margin-left', left).css('margin-top', top);
 });
