@@ -106,10 +106,13 @@
     margin-top: 0;
     z-index: -1;
     transition: z-index 0s 1s;
-    .contact__open &.& {
+    .contact__open & {
 		z-index: 3;
-		transition: none;
     }
+}
+
+.contact__open .contact_content.contact_content {
+	transition: none;
 }
 
 .contact__animation {
