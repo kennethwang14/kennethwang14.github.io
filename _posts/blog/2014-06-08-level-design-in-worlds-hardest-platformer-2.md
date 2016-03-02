@@ -29,7 +29,7 @@ description: "By manually making every single level ourselves, we were able to m
   * **Have a level editor**
   * **Level designing takes a lot of time**
 
-We designed all 200 levels of <a href="http://fortunessolace.com/whp2thegame" target="_blank">World’s Hardest Platformer 2</a> by hand. By manually making every single level ourselves, we were able to make sure that they were all high-quality. In this article, I will discuss the design choices we took in the game and the reasons why.
+We designed all 200 levels of <a href="http://fortunessolace.com/whp2thegame" target="_blank">World’s Hardest Platformer 2</a> by hand. By manually making every single level ourselves, we were able to make sure that they were all high-quality. In this article, I will discuss the design choices we took in the game and the reasons why..
 
 **Benefits of having a large amount of levels**
 
