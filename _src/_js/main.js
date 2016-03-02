@@ -35,7 +35,7 @@ $(function() {
 });
 
 $(".contact").on('click', function(){
-  $("body").toggleClass(".contact__open");
+  $("body").toggleClass("contact__open");
   $(".contact__content").toggleClass("contact__animation");
   var btn = $('.contact');
   var left = btn[0].offsetLeft + btn.width()/2;
