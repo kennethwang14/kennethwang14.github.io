@@ -11,7 +11,7 @@ image1thumb: portfolio/BrotherwiseGames/BrotherwiseGames1Thumb.png
 image2: portfolio/BrotherwiseGames/BrotherwiseGames2Full.png
 image2thumb: portfolio/BrotherwiseGames/BrotherwiseGames2Thumb.png
 
-tinyThumbnail: placeholder/thumbnail.jpg
+tinyThumbnail: portfolio/BrotherwiseGames/thumbnail.png
 
 role:              "UX/UI Design, Frontend & Backend Development"
 description:       "Brotherwise Games is an independent board games company founded by two brothers. After the huge success of their $200,000 Kickstarter, they reached out to me, saying that they wanted a complete and new branding.
