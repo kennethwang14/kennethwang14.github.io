@@ -106,7 +106,7 @@
     margin-top: 0;
     z-index: -1;
     transition: z-index 0s 1s;
-    .contact__removeScrollbar & {
+    .contact__open & {
 		z-index: 3;
 		transition: none;
     }
