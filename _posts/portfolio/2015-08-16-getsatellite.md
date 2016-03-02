@@ -2,7 +2,7 @@
 title: "GetSatellite"
 
 siteNav: portfolio
-month: "June 2015"
+month: "August 2015"
 categories:
   - portfolio
 
@@ -20,7 +20,7 @@ In total, the website contains over 300 pages, and over 10 custom plugins, inclu
 
 shortDescription: "I worked together with Satellite Country, one of the biggest DISH retailers in the United States, to redesign their previous website."
 
-technologies: "HTML5/CSS3, WordPress, Custom WordPress Theme & Plugin Development, PHP, Javascript, jQuery"
+technologies: "HTML5/CSS3, WordPress, Custom WordPress Theme & Plugin Development, PHP, JavaScript, jQuery"
 
 
 ---

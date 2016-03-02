@@ -18,7 +18,7 @@ description:       "My client required a mobile version of their site. I was pro
 
 shortDescription: "My client required a mobile version of their site."
 
-technologies: "HTML5/CSS3, jQuery, Javascript"
+technologies: "HTML5/CSS3, jQuery, JavaScript"
 
 testimonial: "Ken was such a pleasure to work with on the Evenings at Saint Patrick mobile website. He worked quickly and always ensured that the team was aware of the status of the project every step of the way. He's extremely conscientious of the final product and his development skills are top-notch. I will definitely be working with Ken in the future!"
 testimonialAuthor: "Kylie Thompson"

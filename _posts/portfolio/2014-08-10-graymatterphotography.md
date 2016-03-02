@@ -18,7 +18,7 @@ It also has an easy to use content-management-system. Uploading a new picture to
 
 shortDescription: "This is a photography portfolio website designed with a focus on a clean and sleek feel."
 
-technologies: "HTML5/CSS3, WordPress, Javascript, jQuery"
+technologies: "HTML5/CSS3, WordPress, JavaScript, jQuery"
 
 testimonial: "I hired Kenneth to redesign my photography portfolio and am very satisfied with the result! He managed to create a very nice looking design and helped me upload it to my web server within a day! I'll probably hire him again in the future :)"
 testimonialAuthor: "Charley Scott"

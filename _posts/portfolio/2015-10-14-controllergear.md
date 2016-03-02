@@ -22,7 +22,7 @@ I also fixed some miscellaneous bugs with their site, and helped them with the d
 
 shortDescription: "When the marketing team of ControllerGear contacted me, their entire shipping system, using WooCommerce, was a mess. Shipping prices were high, taxes were wrong, and international shipping was not working."
 
-technologies: "HTML5/CSS3, WordPress, WooCommerce, FedEx API, USPS API, ShipStation API, TaxCloud API, Javascript"
+technologies: "HTML5/CSS3, WordPress, WooCommerce, FedEx API, USPS API, ShipStation API, TaxCloud API, JavaScript"
 
 active: "http://ControllerGear.com"
 

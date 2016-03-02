@@ -2,7 +2,7 @@
 title: "LUXWatches"
 
 siteNav: portfolio
-month: "August 2015"
+month: "November 2015"
 categories:
   - portfolio
 
@@ -18,7 +18,7 @@ description:       "LUXWATCHES is a high-class wristwatch brand that seeks to pr
 
 shortDescription: "LUXWATCHES is a high-class wristwatch brand that seeks to produce the highest quality watches. Their old website was not responsive and they hired me to redesign a new one."
 
-technologies: "HTML5/CSS3, WordPress, WooCommerce, PHP, Javascript"
+technologies: "HTML5/CSS3, WordPress, WooCommerce, PHP, JavaScript"
 
 testimonial: "I approached Kenneth, asking him to redesign LUXWATCHES with a tight deadline of a weekend. In a short timeframe, Kenneth delivered a quality and beautiful website that completely exceeded my expectations. He is an amazing designer and I recommend him to all."
 testimonialAuthor: "Peter Szurek"

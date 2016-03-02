@@ -20,7 +20,7 @@ The frontend was built entirely in WordPress using HTML5, CSS3, and jQuery. The 
 
 shortDescription: "This is the website for Pizzeria Seattle, a new Italian restaurant. It features an online menu as well as an interactive booking system."
 
-technologies: "HTML5/CSS3, WordPress, WordPress Plugin & Theme Development, WooCommerce, PHP, Javascript, jQuery"
+technologies: "HTML5/CSS3, WordPress, WordPress Plugin & Theme Development, WooCommerce, PHP, JavaScript, jQuery"
 
 testimonial: "KenDevDesigns contacted me on my web design job on reddit and I am very happy that I hired him! He did an AMAZING job designing Pizzeria Seattle and the website now looks very great! He is very talented and I will recommend him to anyone who needs a good web designer."
 testimonialAuthor: "Jeff Gallo"
