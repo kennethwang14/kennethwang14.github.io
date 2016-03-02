@@ -1,11 +1,12 @@
 ---
 title: 'The Viral-Bandwagon Effect: Analysis of the “Exploding” Success of Video Game Titles'
+layout: blogpost
 
 siteNav: blog
 date: 2014-4-13
 layout: post
 categories:
-  - blog-posts
+  - blog
 
 thumbnail: blog/placeholder-avatars/thumbnail.jpg
 image: blog/placeholder-avatars/thumbnail.jpg

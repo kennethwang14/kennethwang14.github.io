@@ -65,10 +65,10 @@ siteNav: home
 
 			<div class="latestPosts__header clearfix">
 				<h5 class="latestPosts__header__title">FEATURED WORK</h5>
-				<a class="latestPosts__viewMore" href="{{ site.baseurl }}/work/">View more →</a>
+				<a class="latestPosts__viewMore" href="{{ site.url }}/portfolio/">View more →</a>
 			</div>
 			{% for post in site.categories['portfolio'] limit:1 %}
-			<a class="latestPosts__post__wrapper" href="{{ post.url | prepend: site.baseurl }}/">
+			<a class="latestPosts__post__wrapper" href="{{ site.url }}/portfolio/">
 				<div class="latestPosts__thumbnail">
 					<img src="/assets/images/{{ post.tinyThumbnail }}">
 				</div>
@@ -86,10 +86,10 @@ siteNav: home
 
 			<div class="latestPosts__header clearfix">
 				<h5 class="latestPosts__header__title">LATEST BLOG POST</h5>
-				<a class="latestPosts__viewMore" href="{{ site.url }}/portfolio/">View more →</a>
+				<a class="latestPosts__viewMore" href="{{ site.url }}/blog/">View more →</a>
 			</div>
-			{% for post in site.categories['blog-posts'] limit:1 %}
-			<a class="latestPosts__post__wrapper" href="{{ site.url }}/portfolio//">
+			{% for post in site.categories['blog'] limit:1 %}
+			<a class="latestPosts__post__wrapper" href="{{ post.url | prepend: site.url }}">
 				<div class="latestPosts__thumbnail">
 					<img src="/assets/images/{{ post.thumbnail }}">
 				</div>

@@ -1,11 +1,12 @@
 ---
 title: Lessons To Be Learned From Cookie Clicker
+layout: blogpost
 
 siteNav: blog
 date: 2014-2-24
 layout: post
 categories:
-  - blog-posts
+  - blog
 
 thumbnail: blog/placeholder-avatars/thumbnail.jpg
 image: blog/placeholder-avatars/thumbnail.jpg

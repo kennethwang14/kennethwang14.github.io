@@ -1,11 +1,12 @@
 ---
 title: 'Level Design in World&#8217;s Hardest Platformer 2'
+layout: blogpost
 
 siteNav: blog
 date: 2014-06-08
 layout: post
 categories:
-  - blog-posts
+  - blog
 
 thumbnail: placeholder/thumbnail.jpg
 image: placeholder/thumbnail.jpg

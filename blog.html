@@ -1,0 +1,25 @@
+---
+layout: default
+siteNav: blog
+permalink: /blog/
+---
+
+<section class="blog__mainContainer">
+	<div class="blog__heroArea">
+		<h1 class="blog__heroTitle">My Blog</h1>
+		<h3 class="blog__heroDescription">My personal thoughts about web design, web development, freelancing, game design, and coding.</h3>
+	</div>
+	<div class="blog__list">
+		{% for post in site.categories['blog'] %}
+		<a href="{{ post.url | prepend: site.url }}" class="blog__post__wrapper">
+			<div class="blog__list__thumbnail">
+				<img src="/assets/images/{{ post.thumbnail }}">
+			</div>
+			<div class="blog__list__textWrapper">
+				<p class="blog__list__title" >{{ post.title }}</p>
+				<h5 class="blog__list__description">{{ post.description }}</h5>
+			</div>
+		</a>
+		{% endfor %}
+	</div>
+</section>

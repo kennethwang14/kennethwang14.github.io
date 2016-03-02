@@ -1,11 +1,12 @@
 ---
 title: 'Video Games: The Ultimate Storytelling Tool'
+layout: blogpost
 
 siteNav: blog
 date: 2014-04-21
 layout: post
 categories:
-  - blog-posts
+  - blog
 
 thumbnail: blog/placeholder-avatars/thumbnail.jpg
 image: blog/placeholder-avatars/thumbnail.jpg
