@@ -118,7 +118,7 @@
     top: -25px;
     left: -25px;
   width: 75px;
-  height: 75px;
+  height: 0;
   box-sizing: border-box;
   border-radius: 50%;
   z-index: 1;
@@ -145,6 +145,7 @@
   -webkit-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
   border: 2px solid $theme-color;
+  height: 75px;
 }
 
 .contact__content {
