@@ -22,6 +22,6 @@ shortDescription: "Brotherwise Games is an independent board games company found
 
 technologies: "HTML5/CSS3, WordPress, JavaScript, jQuery"
 
-active: "bwisegames.com"
+active: "http://bwisegames.com"
 
 ---
