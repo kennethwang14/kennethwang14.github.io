@@ -105,7 +105,7 @@
    background-color: $theme-color;
    display: block;
    position: absolute;
-    top: -500px;
+	tpo: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -135,7 +135,6 @@
   -webkit-transform: scale(60);
           transform: scale(60);
   display: block;
-  top: 0;
 }
 
 .contact__expanded .contact__circle:before {
