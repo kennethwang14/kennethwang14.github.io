@@ -8,8 +8,8 @@ categories:
   - blog
   - gamedesign
 
-thumbnail: blog/placeholder-avatars/thumbnail.jpg
-image: blog/placeholder-avatars/thumbnail.jpg
+thumbnail: placeholder/thumbnail.jpg
+image: placeholder/thumbnail.jpg
 
 description: "Memory optimizations."
 ---
