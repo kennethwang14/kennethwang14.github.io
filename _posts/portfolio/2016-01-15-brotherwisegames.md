@@ -6,9 +6,9 @@ month: "January 2016"
 categories:
   - portfolio
 
-image1: portfolio/BrotherwiseGames/BrotherwiseGamesFull.png
+image1: portfolio/BrotherwiseGames/BrotherwiseGames1Full.png
 image1thumb: portfolio/BrotherwiseGames/BrotherwiseGames1Thumb.png
-image2: portfolio/BrotherwiseGames/BrotherwiseGamesFull.png
+image2: portfolio/BrotherwiseGames/BrotherwiseGames2Full.png
 image2thumb: portfolio/BrotherwiseGames/BrotherwiseGames2Thumb.png
 
 tinyThumbnail: placeholder/thumbnail.jpg
