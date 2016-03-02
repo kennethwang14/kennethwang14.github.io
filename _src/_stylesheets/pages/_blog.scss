@@ -19,7 +19,9 @@
 .blog__list {
 	max-width: 60%;
     margin: auto;
-    text-decoration: none;
+    .blog__post__wrapper {
+    	text-decoration: none;
+    }
 }
 
 .blog__post__wrapper {
@@ -33,7 +35,6 @@
 
 .blog__post__wrapper .blog__list__description:hover {
 	color: $body-color;
-	text-decoration: none;
 }
 
 .blog__list__thumbnail {
