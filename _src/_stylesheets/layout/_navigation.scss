@@ -100,7 +100,7 @@
    transition-delay: 200ms;
    width: 200px;
    opacity: 0; 
-   height: 200px;
+   height: 0;
    overflow: hidden;
    border: none;
    border-radius: 50%;
@@ -122,6 +122,7 @@
   -webkit-transform: scale(20);
           transform: scale(20);
  	opacity: 1;
+ 	height: 200px;
 }
 
 
