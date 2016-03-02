@@ -36,5 +36,5 @@ $(function() {
 
 $(".contact").on('click', function(){
   $("body").toggleClass("contact__expanded");
-  $(this).parent("contact").toggleClass("contact__expanded");
-})
+  $(this).parent(".contact").toggleClass("contact__expanded");
+});
