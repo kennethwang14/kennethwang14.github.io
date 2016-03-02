@@ -1,5 +1,5 @@
  .blog__mainContainer {
- 	max-width: 50%;
+ 	max-width: 925px;
     margin: auto;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .blog__list {
-	max-width: 60%;
+	max-width: 555px;
     margin: auto;
     .blog__post__wrapper {
     	text-decoration: none;
@@ -27,43 +27,44 @@
 .blog__post__wrapper {
 	display: block;
 	min-height: 150px;
+	margin-bottom: 20px;
 }
 
-.blog__post__wrapper .blog__list__title {
-	color: $theme-color;
-	font-weight: 600;
-}
+	.blog__list__date {
+		color: $silver;
+	}
 
-.blog__post__wrapper .blog__list__title:hover {
-	text-decoration: underline;
-}
+	.blog__list__title {
+		color: $theme-color;
+		font-weight: 600;
+		line-height: 1.1;
+	}
 
-.blog__post__wrapper .blog__list__description {
-	color: $body-color;
-}
+	.blog__post__wrapper .blog__list__title:hover {
+		text-decoration: underline;
+	}
 
+	.blog__post__wrapper .blog__list__description {
+		color: $body-color;
+	}
 
-.blog__post__wrapper .blog__list__description:hover {
-	color: $body-color;
-}
+	.blog__list__thumbnail {
+		float: left;
+	    margin: 10px;
+	    margin-top: 20px;
+	    width: 110px;
+	    height: 110px;
+	}
 
-.blog__list__thumbnail {
-	float: left;
-    margin: 10px;
-    margin-top: 20px;
-    width: 110px;
-    height: 110px;
-}
+	.blog__list__thumbnail img {
+		display: block;
+	    border-radius: 50%;
+	}
 
-.blog__list__thumbnail img {
-	display: block;
-    border-radius: 50%;
-}
-
-.blog__list__textWrapper {
-	overflow: hidden;
-    _overflow: visible;
-    zoom: 1;
-    padding: 10px;
-    margin-top: 7px;
-}
+	.blog__list__textWrapper {
+		overflow: hidden;
+	    _overflow: visible;
+	    zoom: 1;
+	    padding: 10px;
+	    margin-top: 7px;
+	}

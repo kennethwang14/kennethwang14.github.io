@@ -16,6 +16,7 @@ permalink: /blog/
 				<img src="/assets/images/{{ post.thumbnail }}">
 			</div>
 			<div class="blog__list__textWrapper">
+				<h6 class="blog__list__date">{{ post.date | date: "%-d %b, %Y" }}</p>
 				<h4 class="blog__list__title" >{{ post.title }}</h4>
 				<p class="blog__list__description">{{ post.description }}</p>
 			</div>
