@@ -97,13 +97,17 @@
   outline: none;
   -webkit-transition: all 500ms cubic-bezier(0.23, 1, 0.32, 1);
   transition: all 500ms cubic-bezier(0.23, 1, 0.32, 1);
-   width: 52px;
-   height: 52px;
+   width: 10px;
+   height: 10px;
    border: none;
    border-radius: 50%;
    background-color: $theme-color;
    display: none;
    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .contact__circle:before {
