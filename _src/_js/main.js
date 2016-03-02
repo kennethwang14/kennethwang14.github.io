@@ -40,5 +40,6 @@ $(".contact").on('click', function(){
   var btn = $('.contact');
   var left = btn[0].offsetLeft + btn.width()/2;
   var top = btn[0].offsetTop + btn.height()/2;
-  modal.find('.contact__animation').css('margin-left', left).css('margin-top', top);
+  $(".contact__animation").css('margin-left', left);
+  $(".contact__animation").css('margin-top', top);
 });
