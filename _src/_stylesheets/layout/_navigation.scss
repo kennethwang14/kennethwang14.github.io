@@ -136,6 +136,9 @@
           transition-delay: 0ms;
   pointer-events: none;
   color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .contact__expanded .contact__content {
