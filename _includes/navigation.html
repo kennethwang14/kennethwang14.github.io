@@ -15,16 +15,16 @@
 				<span>{</span>
 			</li>
 			<li class="siteNav__link">
-				<a class="{% if page.siteNav == 'home' %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+				<a class="{% if page.siteNav == 'home' %}active{% endif %}" href="{{ site.url }}/">Home</a>
 			</li>
 			<li class="siteNav__link">
-				<a class="{% if page.siteNav == 'work' %}active{% endif %}" href="{{ site.baseurl }}/portfolio/">Portfolio</a>
+				<a class="{% if page.siteNav == 'portfolio' %}active{% endif %}" href="{{ site.url }}/portfolio/">Portfolio</a>
 			</li>
 			<li class="siteNav__link">
-				<a class="{% if page.siteNav == 'blog' %}active{% endif %}" href="{{ site.baseurl }}/blog/">Blog</a>
+				<a class="{% if page.siteNav == 'blog' %}active{% endif %}" href="{{ site.url }}/blog/">Blog</a>
 			</li>
 			<li class="siteNav__link">
-				<a class="{% if page.siteNav == 'blog' %}active{% endif %}" href="{{ site.baseurl }}/contact/">Contact</a>
+				<a href="{{ site.url }}/contact/">Contact</a>
 			</li>
 			<li class="siteNav__braces siteNav__braces--endBrace">
 				<span>}</span>
