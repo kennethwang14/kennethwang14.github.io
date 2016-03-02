@@ -4,9 +4,9 @@ layout: blogpost
 
 siteNav: blog
 date: 2014-06-08
-layout: post
 categories:
   - blog
+  - gamedesign
 
 thumbnail: placeholder/thumbnail.jpg
 image: placeholder/thumbnail.jpg
