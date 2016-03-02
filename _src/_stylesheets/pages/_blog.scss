@@ -27,7 +27,11 @@
 	min-height: 150px;
 }
 
-.blog__post__wrapper .blog__list__description {
+.blog__post__wrapper .blog__list__title {
+	color: $theme-color;
+}
+
+.blog__post__wrapper .blog__list__description:hover {
 	color: $body-color;
 	text-decoration: none;
 }
