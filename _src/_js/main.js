@@ -42,8 +42,8 @@ $(".contact").on('click', function(){
   var top = btn[0].offsetTop + btn.height()/2;
   $(".contact__animation").css('margin-left', left);
   $(".contact__animation").css('margin-top', top);
-  $(".contact__content").addClass('notransition');
-  $(".contact__content").css('z-index', 3);
-  $(".contact__content").offsetHeight;
-  $(".contact__content").removeClass('notransition'); 
+});
+
+$(".contact__close").on("click", function() {
+    $("body").toggleClass("contact__open");
 });

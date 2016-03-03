@@ -95,6 +95,7 @@
 
 .contact__open {
 	overflow: hidden;
+	position: relative;
 }
 
 .contact__content {
@@ -105,24 +106,32 @@
     bottom: 0;
     margin-top: 0;
     z-index: -1;
+    opacity: 0;
+}
+
+.contact__open .contact__content {
+    z-index: 3;
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 0.3s;
 }
 
 .contact__animation {
 	position: absolute;
-	top: -500px;
-	left: -500px;
-	width: 1000px;
-	height: 1000px;
+	top: -250px;
+	left: -250px;
+	width: 500px;
+	height: 500px;
 	border-radius: 50%;
 	background: $theme-color;
 
 	@include prefix(transform, scale(0));
-	-webkit-transition: -webkit-transform 0.5s;
-	transition: transform 0.5s;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
 	.contact__open & {
 		@include prefix(transform, scale(10));
-		-webkit-transition: -webkit-transform 1.5s, background 0s 1s;
-		transition: transform 1.5s, background 0s 1s;
+		-webkit-transition: -webkit-transform 1.3s;
+		transition: transform 1.3s;
 	}
 	.contact__success & {
 		background: $success;
