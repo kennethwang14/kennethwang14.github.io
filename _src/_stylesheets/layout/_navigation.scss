@@ -128,16 +128,17 @@
 	@include prefix(transform, scale(0));
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
-}
-
-	.contact__open .contact__animation {
+	
+	.contact__open & {
 		@include prefix(transform, scale(10));
 		-webkit-transition: -webkit-transform 1.3s;
 		transition: transform 1.3s;
 	}
-	.contact__success .contact__animation  {
+	.contact__success & {
 		background: $success;
 	}
+}
+
 
 //CodePen by Josh Adamous
 form {
