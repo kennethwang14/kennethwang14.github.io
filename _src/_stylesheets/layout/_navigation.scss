@@ -110,7 +110,7 @@
 }
 
 .contact__open .contact__content {
-    z-index: 3;
+    z-index: 200;
     opacity: 1;
     transition: opacity 1s;
     transition-delay: 0.3s;
@@ -124,6 +124,7 @@
 	height: 500px;
 	border-radius: 50%;
 	background: $theme-color;
+	z-index: 100;
 
 	@include prefix(transform, scale(0));
 	-webkit-transition: -webkit-transform 0.35s;
