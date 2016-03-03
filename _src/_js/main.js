@@ -43,6 +43,7 @@ $(".contact").on('click', function(){
   $(".contact__animation").css('margin-top', top);
 });
 
+
 $(".contact__close").on("click", function() {
     $("body").toggleClass("contact__open");
 });
