@@ -13,15 +13,15 @@ thumbnail: blog/video-games-ultimate-storytelling-tool/thumbnail.png
 description: "Games are the ultimate medium for storytelling, and game designers should prioritize accordingly."
 ---
 
-&nbsp;
+Older generation games rarely revolve around narratives. Instead, the main focus was to manipulate a character around obstacles and to just have fun. However, as games evolved, developers began to place more focus into storytelling. Nowadays, narratives are a major component to modern games. Without a doubt, this year’s top games, such as like *BioShock Infinite* and *The Last of Us*, would be a completely different experience without their superb narratives.
 
-[<img class=" wp-image-43 aligncenter" src="http://fsolace.files.wordpress.com/2014/04/1.jpg?w=500" alt="1" width="573" height="280" />][1]
 
-&nbsp;
+There is a relatively unknown genre in video gaming whose sole purpose is to tell a story, a genre known as Visual Novels. Visual Novels are:
 
-<span style="visibility:hidden;">+++</span>Older generation games rarely revolve around narratives. Instead, the main focus was to manipulate a character around obstacles and to just have fun. However, as games evolved, developers began to place more focus into storytelling. Nowadays, narratives are a major component to modern games. Without a doubt, this year’s top games, such as like *BioShock Infinite *and* The Last of Us, *would be a completely different experience without their superb narratives.
+>Interactive fiction games, featuring mostly static graphics, most often using anime-style art or occasionally live-action stills (and sometimes video footage)
+><cite>Wikipedia</cite>
 
-<span style="visibility:hidden;">+++</span>There is a relatively unknown genre in video gaming whose sole purpose is to tell a story, a genre known as Visual Novels. Visual Novels are “interactive fiction games, featuring mostly static graphics, most often using anime-style art or occasionally live-action stills (and sometimes video footage)” (Wikipedia). Essentially, they are the immersive experience of a fictional book, complete with authentic sounds and visuals. Often times, there are multiple storylines that depend on the player’s various decisions.
+Essentially, they are the immersive experience of a fictional book, complete with authentic sounds and visuals. Often times, there are multiple storylines that depend on the player’s various decisions.
 
 <p style="text-align:center;">
   <a href="http://fsolace.files.wordpress.com/2014/04/2.jpg"><img class="alignnone size-large wp-image-44" src="http://fsolace.files.wordpress.com/2014/04/2.jpg?w=500" alt="2" width="500" height="375" /></a>
