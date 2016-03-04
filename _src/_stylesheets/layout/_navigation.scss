@@ -212,7 +212,7 @@ input:focus ~ label, input.used ~ label {
   -webkit-transform: scale(.75);
           transform: scale(.75); left: -2px;
 	/* font-size: 14px; */
-	color: #4a89dc;
+	color: rgb(255, 255, 255, 0.5);
 }
 
 
@@ -230,7 +230,7 @@ input:focus ~ label, input.used ~ label {
 	width: 0;
 	bottom: 1px; 
 	position: absolute;
-	background: #4a89dc; 
+	background: ; 
 	-webkit-transition:all 0.2s ease; 
 	transition: all 0.2s ease;
 }
@@ -269,11 +269,11 @@ input:focus ~ .highlight {
 /* Animations */
 
 @-webkit-keyframes inputHighlighter {
-	from { background: #4a89dc; }
+	from { background: mix($theme-color, black, 50%); }
 	to 	{ width: 0; background: transparent; }
 }
 
 @keyframes inputHighlighter {
-	from { background: #4a89dc; }
+	from { background: mix($theme-color, black, 50%); }
 	to 	{ width: 0; background: transparent; }
 }
