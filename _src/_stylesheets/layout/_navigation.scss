@@ -193,7 +193,7 @@ input:focus { outline: none; }
 /* Label */
 
 label {
-	color: #FFF; 
+	color: rgba(255, 255, 255, 0.5); 
 	font-size: 18px;
 	font-weight: normal;
 	position: absolute;
@@ -230,7 +230,7 @@ input:focus ~ label, input.used ~ label {
 	width: 0;
 	bottom: 1px; 
 	position: absolute;
-	background: mix($theme-color, black, 50%); 
+	background: rgba(255, 255, 255, 0.5); 
 	-webkit-transition:all 0.2s ease; 
 	transition: all 0.2s ease;
 }
