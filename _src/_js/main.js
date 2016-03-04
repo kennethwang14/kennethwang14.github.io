@@ -6,7 +6,6 @@ $(function() {
   });
 });
 
-InstantClick.on('change', function() {
   
 $('.magnific').magnificPopup({
   type: 'image',
@@ -45,6 +44,3 @@ $('.magnific').magnificPopup({
   $(".contact__close").on("click", function() {
       $("body").toggleClass("contact__open");
   });
-
-});
-InstantClick.init();
