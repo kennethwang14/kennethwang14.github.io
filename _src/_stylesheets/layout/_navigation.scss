@@ -181,7 +181,7 @@ form {
     -webkit-appearance: none;
     display: block;
     background: transparent;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
     width: 100%;
     border: none;
     border-radius: 0;
@@ -208,7 +208,15 @@ label {
 
 /* active */
 
-.contact__field:focus ~ label, .contact__field.used ~ label {
+.contact__field.used ~ label {
+	top: -20px;
+  -webkit-transform: scale(.75);
+          transform: scale(.75); left: -2px;
+	/* font-size: 14px; */
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.contact__field:focus ~ label {
 	top: -20px;
   -webkit-transform: scale(.75);
           transform: scale(.75); left: -2px;

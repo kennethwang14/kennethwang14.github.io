@@ -46,7 +46,7 @@ $('.magnific').magnificPopup({
       $("body").toggleClass("contact__open");
   });
 
-  $('input').blur(function() {
+  $('.contact__field').blur(function() {
     var $this = $(this);
     if ($this.val())
       $this.addClass('used');
