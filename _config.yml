@@ -12,6 +12,9 @@ permalink: /:categories/:title
 #
 
 markdown: kramdown
+kramdown:  
+  parse_block_html: true
+
 highlighter: rouge
 
 # The release of Jekyll Now that you're using
