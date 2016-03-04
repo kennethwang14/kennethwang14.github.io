@@ -6,9 +6,9 @@ $(function() {
   });
 });
 
-$(function() {
- InstantClick.init();
- $('.magnific').magnificPopup({
+InstantClick.on('change', function() {
+  
+$('.magnific').magnificPopup({
   type: 'image',
   mainClass: 'mfp-with-zoom', // this class is for CSS animation below
   overflowY: 'scroll',
@@ -32,18 +32,19 @@ $(function() {
     }
   }
   });
-});
 
-$(".contact").on('click', function(){
-  $("body").toggleClass("contact__open");
-  var btn = $('.contact');
-  var left = btn[0].offsetLeft + btn.width()/2;
-  var top = btn[0].offsetTop + btn.height()/2;
-  $(".contact__animation").css('margin-left', left);
-  $(".contact__animation").css('margin-top', top);
-});
-
-
-$(".contact__close").on("click", function() {
+  $(".contact").on('click', function(){
     $("body").toggleClass("contact__open");
+    var btn = $('.contact');
+    var left = btn[0].offsetLeft + btn.width()/2;
+    var top = btn[0].offsetTop + btn.height()/2;
+    $(".contact__animation").css('margin-left', left);
+    $(".contact__animation").css('margin-top', top);
+  });
+
+  $(".contact__close").on("click", function() {
+      $("body").toggleClass("contact__open");
+  });
+
 });
+InstantClick.init();
