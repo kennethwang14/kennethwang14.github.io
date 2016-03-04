@@ -24,7 +24,7 @@ Essentially, they are the immersive experience of a fictional book, complete wit
 
 ![Fate/Stay Night](http://fsolace.files.wordpress.com/2014/04/2.jpg)
 
-###### A “gameplay” screenshot of “Fate/stay night”, one of the most popular Visual Novels
+##### A “gameplay” screenshot of “Fate/stay night”, one of the most popular Visual Novels
 
 However, are Visual Novels considered books, or are they considered games? The answer solely depends on your definitions of the terms. For example, many people debate whether *Phoenix Wright: Ace Attorney* is a visual novel with its extensive character interactions, or a game with large amounts of text and little gameplay. Regardless of that answer, *Phoenix Wright* undeniably offers a great experience, and as game designers, that is what we truly care about.
 
