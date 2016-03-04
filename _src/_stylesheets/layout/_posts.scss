@@ -21,3 +21,11 @@
     margin: auto;
     margin-top: 20px;
 }
+
+.blockquote {
+	line-height: 1.5;
+    font-family: font-family: "ff-meta-serif-web-pro";
+    padding: 10px 0 10px 20px;
+    color: $theme-color;
+    border-left: 5px solid $theme-color;
+}
