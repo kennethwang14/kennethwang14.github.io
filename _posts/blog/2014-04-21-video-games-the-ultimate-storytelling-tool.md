@@ -23,18 +23,11 @@ There is a relatively unknown genre in video gaming whose sole purpose is to tel
 
 Essentially, they are the immersive experience of a fictional book, complete with authentic sounds and visuals. Often times, there are multiple storylines that depend on the player’s various decisions.
 
-<p style="text-align:center;">
-  <a href="http://fsolace.files.wordpress.com/2014/04/2.jpg"><img class="alignnone size-large wp-image-44" src="http://fsolace.files.wordpress.com/2014/04/2.jpg?w=500" alt="2" width="500" height="375" /></a>
-</p>
+![Fate/Stay Night](http://fsolace.files.wordpress.com/2014/04/2.jpg)
+######A “gameplay” screenshot of “Fate/stay night”, one of the most popular Visual Novels######
 
-<p style="text-align:center;">
-  <em>A “gameplay” screenshot of “Fate/stay night”, one of the most popular Visual Novels</em>
-</p>
+However, are Visual Novels considered books, or are they considered games? The answer solely depends on your definitions of the terms. For example, many people debate whether *Phoenix Wright: Ace Attorney* is a visual novel with its extensive character interactions, or a game with large amounts of text and little gameplay. Regardless of that answer, *Phoenix Wright* undeniably offers a great experience, and as game designers, that is what we truly care about.
 
-<span style="visibility:hidden;">+++</span>However, are Visual Novels considered books, or are they considered games? The answer solely depends on your definitions of the terms. For example, many people debate whether *Phoenix Wright: Ace Attorney* is a visual novel with its extensive character interactions, or a game with large amounts of text and little gameplay. Regardless of that answer, *Phoenix Wright* undeniably offers a great experience, and as game designers, that is what we truly care about.
+There is so much to learn from Visual Novels. They are simple games featuring mostly text, yet they grab the player’s attention and hook them very quickly. Game designers need to worry about gameplay, graphics, sound, and a myriad of other elements, so it is easy to forget about the narrative component. When players are enthralled by a game’s narrative, their curiosity is increased, which can create a drive to play further. Good narratives often add to the immersion level and strengthen bond between the player and in-game characters.
 
-<span style="visibility:hidden;">+++</span>There is so much to learn from Visual Novels. They are simple games featuring mostly text, yet they grab the player’s attention and hook them very quickly. Game designers need to worry about gameplay, graphics, sound, and a myriad of other elements, so it is easy to forget about the narrative component. When players are enthralled by a game’s narrative, their curiosity is increased, which can create a drive to play further. Good narratives often add to the immersion level and strengthen bond between the player and in-game characters.
-
-<span style="visibility:hidden;">+++</span>In response to a great book, people often say, “It was so good that I couldn’t put it down!” These experiences were created by the author using solelywords. Game designers, on the other hand, have more tools to stimulate the senses and heighten the immersion. Whereas books are limited by words, games do not have such limitations. Games are the ultimate medium for storytelling, and game designers need to prioritize accordingly. Stop coating gameplay with a story—start coating a great story with fitting gameplay. I hope that in the coming decades, game designers, developers, and studios will create profound games that impact the players emotionally and teach them life lessons. I hope that in coming future, games will be as revered to as today’s classic literature. Let’s make it happen.
-
- [1]: http://fsolace.files.wordpress.com/2014/04/1.jpg
+In response to a great book, people often say, “It was so good that I couldn’t put it down!” These experiences were created by the author using solelywords. Game designers, on the other hand, have more tools to stimulate the senses and heighten the immersion. Whereas books are limited by words, games do not have such limitations. Games are the ultimate medium for storytelling, and game designers need to prioritize accordingly. Stop coating gameplay with a story—start coating a great story with fitting gameplay. I hope that in the coming decades, game designers, developers, and studios will create profound games that impact the players emotionally and teach them life lessons. I hope that in coming future, games will be as revered to as today’s classic literature. Let’s make it happen.
