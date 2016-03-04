@@ -32,6 +32,8 @@ $('.magnific').magnificPopup({
   }
   });
 
+  var pathname;
+
   $(".contact").on('click', function(){
     $("body").toggleClass("contact__open");
     var btn = $('.contact');
@@ -40,10 +42,17 @@ $('.magnific').magnificPopup({
     $(".contact__animation").css('margin-left', left);
     $(".contact__animation").css('margin-top', top);
     autosize($('#contact__message'));
+    pathname = window.location.pathname;
+    window.history.replaceState({}, '', '/contact/');
   });
 
   $(".contact__close").on("click", function() {
       $("body").toggleClass("contact__open");
+      if (pathname == null) {
+        window.history.replaceState({}, '', '/');
+      } else {
+        window.history.replaceState({}, '', pathname);
+      }
   });
 
   $('.contact__field').blur(function() {
