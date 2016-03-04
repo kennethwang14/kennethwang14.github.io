@@ -248,7 +248,7 @@ label {
 
 /* Highlight */
 
-.highlight {
+.contact__highlight {
 	position: absolute;
 	height: 60%; 
 	width: 100px; 
@@ -261,7 +261,7 @@ label {
 
 /* active */
 
-.contact__field:focus ~ .highlight {
+.contact__field:focus ~ .contact__highlight {
 	-webkit-animation: inputHighlighter 0.3s ease;
 	        animation: inputHighlighter 0.3s ease;
 }
