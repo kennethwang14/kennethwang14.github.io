@@ -217,8 +217,6 @@ label {
 }
 
 
-
-
 /* Underline */
 
 .bar {
@@ -279,4 +277,23 @@ label {
 @keyframes inputHighlighter {
 	from { background: white; }
 	to 	{ width: 0; background: transparent; }
+}
+
+.contact__submitContainer {
+	width: 100%;
+    margin: auto;
+}
+
+.contact__submit {
+	width: 100%;
+    text-align: center;
+    background: transparent;
+    border: none;
+}
+
+.contact__submitLabel {
+	color: white;
+    display: inline;
+    border-bottom: 1px solid white;
+    padding: 3px;
 }
