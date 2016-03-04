@@ -4,7 +4,7 @@ layout: default
 
 <article class="post__container">
   <h1 class="post__title">{{ page.title }}</h1>
-  <h6 class="post__date">Written on {{ page.date | date: "%B %e, %Y" }}</h6>
+  <h6 class="post__date">{{ page.date | date: "%-d %b, %Y" }}</h6>
 
   <div class="post__entry">
     {{ content }}
