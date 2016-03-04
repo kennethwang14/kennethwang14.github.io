@@ -230,7 +230,7 @@ input:focus ~ label, input.used ~ label {
 	width: 0;
 	bottom: 1px; 
 	position: absolute;
-	background: ; 
+	background: mix($theme-color, black, 50%); 
 	-webkit-transition:all 0.2s ease; 
 	transition: all 0.2s ease;
 }
