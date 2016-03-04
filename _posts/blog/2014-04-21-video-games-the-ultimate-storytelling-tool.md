@@ -15,7 +15,6 @@ description: "Games are the ultimate medium for storytelling, and game designers
 
 Older generation games rarely revolve around narratives. Instead, the main focus was to manipulate a character around obstacles and to just have fun. However, as games evolved, developers began to place more focus into storytelling. Nowadays, narratives are a major component to modern games. Without a doubt, this year’s top games, such as like *BioShock Infinite* and *The Last of Us*, would be a completely different experience without their superb narratives.
 
-
 There is a relatively unknown genre in video gaming whose sole purpose is to tell a story, a genre known as Visual Novels. Visual Novels are:
 
 >Interactive fiction games, featuring mostly static graphics, most often using anime-style art or occasionally live-action stills (and sometimes video footage)
@@ -24,7 +23,8 @@ There is a relatively unknown genre in video gaming whose sole purpose is to tel
 Essentially, they are the immersive experience of a fictional book, complete with authentic sounds and visuals. Often times, there are multiple storylines that depend on the player’s various decisions.
 
 ![Fate/Stay Night](http://fsolace.files.wordpress.com/2014/04/2.jpg)
-######A “gameplay” screenshot of “Fate/stay night”, one of the most popular Visual Novels######
+
+###### A “gameplay” screenshot of “Fate/stay night”, one of the most popular Visual Novels
 
 However, are Visual Novels considered books, or are they considered games? The answer solely depends on your definitions of the terms. For example, many people debate whether *Phoenix Wright: Ace Attorney* is a visual novel with its extensive character interactions, or a game with large amounts of text and little gameplay. Regardless of that answer, *Phoenix Wright* undeniably offers a great experience, and as game designers, that is what we truly care about.
 
