@@ -39,6 +39,7 @@ $('.magnific').magnificPopup({
     var top = btn[0].offsetTop + btn.height()/2;
     $(".contact__animation").css('margin-left', left);
     $(".contact__animation").css('margin-top', top);
+    autosize($('#contact__message'));
   });
 
   $(".contact__close").on("click", function() {

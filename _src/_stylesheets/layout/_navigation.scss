@@ -161,6 +161,7 @@
     margin-top: 50px;
     color: white;
     font-size: 70px;
+    margin-bottom: 15px;
 }
 
 //CodePen by Josh Adamous
@@ -174,7 +175,7 @@ form {
 	margin-bottom: 45px; 
 }
 
-input {
+.contact__field {
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     -webkit-appearance: none;
@@ -187,7 +188,7 @@ input {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-input:focus { outline: none; }
+.contact__field:focus { outline: none; }
 
 
 /* Label */
@@ -207,7 +208,7 @@ label {
 
 /* active */
 
-input:focus ~ label, input.used ~ label {
+.contact__field:focus ~ label, .contact__field.used ~ label {
 	top: -20px;
   -webkit-transform: scale(.75);
           transform: scale(.75); left: -2px;
@@ -242,7 +243,7 @@ input:focus ~ label, input.used ~ label {
 
 /* active */
 
-input:focus ~ .bar:before, input:focus ~ .bar:after { width: 50%; }
+.contact__field:focus ~ .bar:before, .contact__field:focus ~ .bar:after { width: 50%; }
 
 
 /* Highlight */
@@ -260,7 +261,7 @@ input:focus ~ .bar:before, input:focus ~ .bar:after { width: 50%; }
 
 /* active */
 
-input:focus ~ .highlight {
+.contact__field:focus ~ .highlight {
 	-webkit-animation: inputHighlighter 0.3s ease;
 	        animation: inputHighlighter 0.3s ease;
 }
