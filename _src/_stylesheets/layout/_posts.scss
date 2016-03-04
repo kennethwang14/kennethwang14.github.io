@@ -14,8 +14,8 @@
 .post__date {
 	text-align: center;
 	color: $silver;
-	border-top: 1px solid $silver;
-    border-bottom: 1px solid $silver;
+	border-top: 1px solid mix($silver, white, 50%);
+    border-bottom: 1px solid mix($silver, white, 50%);
     padding: 3px;
     width: 80%;
     margin: auto;
