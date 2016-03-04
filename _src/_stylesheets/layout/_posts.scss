@@ -30,19 +30,21 @@
 		font-size: 1.35rem;
 		text-indent: 2em;
     	margin-top: 1.6em;
+    	color: black;
 	}
 
 	blockquote {
-		line-height: 1.5;
-	    font-family: "ff-meta-serif-web-pro", serif;
+
 	    padding: 1rem 0 1rem 1.6rem;
-	    color: $theme-color;
 	    border-left: 0.5rem solid $theme-color;
 	    margin-top: 1.4em;
 	    
 	    p {
 	    	text-indent: 0;
 	    	margin: 0;
+	    	line-height: 1.5;
+	    	font-family: "ff-meta-serif-web-pro", serif;
+	    	color: $theme-color;
 	    }
 		
 		cite {
