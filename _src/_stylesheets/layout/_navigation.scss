@@ -180,11 +180,11 @@ input {
     -webkit-appearance: none;
     display: block;
     background: transparent;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.5)
     width: 100%;
     border: none;
     border-radius: 0;
-    border-bottom: 1px solid #F3F3F3;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 input:focus { outline: none; }
@@ -212,7 +212,7 @@ input:focus ~ label, input.used ~ label {
   -webkit-transform: scale(.75);
           transform: scale(.75); left: -2px;
 	/* font-size: 14px; */
-	color: rgba(255, 255, 255, 0.5);
+	color: white;
 }
 
 
@@ -269,11 +269,11 @@ input:focus ~ .highlight {
 /* Animations */
 
 @-webkit-keyframes inputHighlighter {
-	from { background: mix($theme-color, black, 50%); }
+	from { background: white; }
 	to 	{ width: 0; background: transparent; }
 }
 
 @keyframes inputHighlighter {
-	from { background: mix($theme-color, black, 50%); }
+	from { background: white; }
 	to 	{ width: 0; background: transparent; }
 }
