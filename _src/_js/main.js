@@ -44,3 +44,11 @@ $('.magnific').magnificPopup({
   $(".contact__close").on("click", function() {
       $("body").toggleClass("contact__open");
   });
+
+  $('input').blur(function() {
+    var $this = $(this);
+    if ($this.val())
+      $this.addClass('used');
+    else
+      $this.removeClass('used');
+  });
