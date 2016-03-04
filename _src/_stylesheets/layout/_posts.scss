@@ -22,10 +22,19 @@
     margin-top: 20px;
 }
 
-.blockquote {
-	line-height: 1.5;
-    font-family: font-family: "ff-meta-serif-web-pro";
-    padding: 10px 0 10px 20px;
-    color: $theme-color;
-    border-left: 5px solid $theme-color;
+
+.post__entry {
+	margin-top: 40px;
+	p {
+		text-indent: 35px;
+    	margin-bottom: 20px;
+	}
+
+	.blockquote {
+		line-height: 1.5;
+	    font-family: "ff-meta-serif-web-pro", serif;
+	    padding: 10px 0 10px 20px;
+	    color: $theme-color;
+	    border-left: 5px solid $theme-color;
+	}
 }
