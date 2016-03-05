@@ -32,6 +32,16 @@
     	margin-top: 1.6em;
     	color: black;
 	}
+	
+	ul, ol {
+		margin-top: 1.6em;
+	}
+
+	li {
+		font-size: 1.35rem;
+	    color: black;
+	    margin-left: 1.4rem;
+	}
 
 	blockquote {
 
@@ -69,6 +79,12 @@
 	    background: #fafafa;
 	    border: 1px solid #aaa;
 	    border-radius: .28rem;
+	}
+
+	img {
+		display: block;
+	    margin: auto;
+	    margin-bottom: 10px;
 	}
 	
 }
