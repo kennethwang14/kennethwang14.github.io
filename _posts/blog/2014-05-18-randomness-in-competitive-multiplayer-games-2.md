@@ -31,7 +31,7 @@ I believe that randomness can either be “good randomness”or “bad randomnes
 
 And bad randomness is the opposite. **Bad randomness**: a factor that produces an uncertain outcome, which players cannot anticipate, manipulate around, or affect in any way.
 
-!(Mario Kart 64)[http://www.emuparadise.me/fup/up/39946-Mario_Kart_64_(Europe)-2.jpg]
+![Mario Kart 64](http://www.emuparadise.me/fup/up/39946-Mario_Kart_64_(Europe)-2.jpg)
 
 ##### Mario Kart 64 is a multiplayer game that implements good randomness correctly
 
