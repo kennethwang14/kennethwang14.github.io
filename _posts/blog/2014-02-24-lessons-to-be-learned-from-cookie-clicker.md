@@ -13,46 +13,40 @@ thumbnail: blog/lessons-to-be-learned-cookie-clicker/thumbnail.png
 description: "Cookie Clicker quickly went viral after its release and imprisoned the mind of all its users with its addictive nature."
 ---
 
-<span style="visibility:hidden;">+++</span><span style="line-height:1.5;">In August 2013, a new internet sensation raided the online world: <a title="Cookie Clicker" href="http://orteil.dashnet.org/cookieclicker/" target="_blank">Cookie Clicker</a>. The game quickly went viral after its release and imprisoned the mind of all its users with its addictive nature. </span><span style="line-height:1.5;">Cookie Clicker is, in essence, a simple game where you gain cookies by clicking on a gigantic cookie. You can also invest in different options with your existing cookies to gain even more cookies. That’s all there is to it. There is no goal; no objective (except to bake more cookies!). Even the developer himself commented in a reddit Ask Me Anything that the game was developed as a joke.</span>
+In August 2013, a new internet sensation raided the online world: [Cookie Clicker](http://orteil.dashnet.org/cookieclicker/). The game quickly went viral after its release and imprisoned the mind of all its users with its addictive nature. Cookie Clicker is, in essence, a simple game where you gain cookies by clicking on a gigantic cookie. You can also invest in different options with your existing cookies to gain even more cookies. That’s all there is to it. There is no goal; no objective (except to bake more cookies!). Even the developer himself commented in a reddit *Ask Me Anything* that the game was developed as a joke.
 
-<img class="aligncenter" alt="" src="http://i.imgur.com/OCbY18s.png" width="626" height="289" />
+![Developer Orteil admitting to Cookie Clicker being a joke game](http://i.imgur.com/OCbY18s.png)
 
-<p style="text-align:center;">
-  <i>Developer Orteil admitting to Cookie Clicker being a joke game</i>
-</p>
+##### Developer Orteil admitting to Cookie Clicker being a joke game
 
-<span style="visibility:hidden;">+++</span><span style="line-height:1.5;">However, how did this seemingly pointless game become so popular and successful? Through game design theory, I will attempt to answer this question.</span>
+However, how did this seemingly pointless game become so popular and successful? Through game design theory, I will attempt to answer this question.
 
-<span style="visibility:hidden;">+++</span>**<span style="line-height:1.5;">Cookie Clicker, however simple of a game, actually follows many principles of good game design.</span>**
+**Cookie Clicker, however simple of a game, actually follows many principles of good game design.**
 
-<img class="aligncenter" alt="" src="http://i.imgur.com/tMHWkvI.png" width="624" height="296" />
+![What Cookie Clicker looks like when players first play it](http://i.imgur.com/tMHWkvI.png)
 
-<p style="text-align:center;">
-  <i>What Cookie Clicker looks like when players first open it</i>
-</p>
+##### What Cookie Clicker looks like when players first play it
 
-<span style="visibility:hidden;">+++</span><span style="line-height:1.5;">Let&#8217;s analyze the different parts of the game. First, the <strong>start</strong>. The game starts with most of the different panels empty, except the gigantic cookie on the left. It is surrounded by light, and a background of animated hearts. When hovered over, the cookie grows slightly bigger. When clicked on, a “+1” appears for a second as well as a small transparent cookie. The cookie counter display will then increase by 1.</span>
+Let's analyze the different parts of the game. First, the **start**. The game starts with most of the different panels empty, except the gigantic cookie on the left. It is surrounded by light, and a background of animated hearts. When hovered over, the cookie grows slightly bigger. When clicked on, a “+1” appears for a second as well as a small transparent cookie. The cookie counter display will then increase by 1.
 
-<span style="visibility:hidden;">+++</span><span style="line-height:1.5;">There are several observations to be made:</span>
+There are several observations to be made:
 
   1. The gigantic cookie is the first thing players see when the game is first loaded, and the thing that captivates players the most. **The cookie is much more interesting visual-wise and curiosity-wise than anything else on the screen**.
   2. When the mouse is hovering over the cookie or when the cookie is clicked, there is visual feedback given back to the user. **This encourages users to interact with the cookie.**
   3. Once the gigantic cookie is clicked on, the cookie counter increases by 1. **The first time this happens, the player will be positively surprised and learn that clicking on the gigantic cookie will increase their overall cookie supply.**
   4. Players will notice that parts of the screen are empty. **This piques the curiosity of the players.**
 
-<span style="visibility:hidden;">+++</span><span style="line-height:1.5;">In Jesse Schell’s <i>The Art of Game Design</i>, he defines <em>fun</em> as “<em>pleasure with surprises</em>” and <em>play</em> as “<em>manipulation that satisfies curiosity</em>”.  These are the most accepted definitions of the words, and those two concepts are the foundations of game design. To restate clearly, pleasurable surprises and curiosity are pretty damn important.</span>
+In Jesse Schell’s *The Art of Game Design*, he defines "fun" as *pleasure with surprises* and "play" as *manipulation that satisfies curiosity*.  These are the most accepted definitions of the words, and those two concepts are the foundations of game design. To restate clearly, pleasurable surprises and curiosity are pretty damn important.
 
-<span style="visibility:hidden;">+++</span><span style="line-height:1.5;">The first minute of a game is the most crucial, especially in a free browser-based game, and will often decide whether the player thinks “this game is dumb” and permanently closes the game, or if he gives the game a try.<strong> As can be seen through our earlier analysis, f</strong><b>or the first minute of Cookie Clicker, players are guided to click on the cookie, which they will discover to be fun and playful. And as such, they will keep playing.</b></span>
+The first minute of a game is the most crucial, especially in a free browser-based game, and will often decide whether the player thinks “this game is dumb” and permanently closes the game, or if he gives the game a try. As can be seen through our earlier analysis, **for the first minute of Cookie Clicker, players are guided to click on the cookie, which they will discover to be fun and playful. And as such, they will keep playing.**
 
-<span style="visibility:hidden;">+++</span><span style="line-height:1.5;">As players gather more and more cookies, they will discover that items will fill the shop.</span>
+As players gather more and more cookies, they will discover that items will fill the shop.
 
-<img class="aligncenter" alt="" src="http://i.imgur.com/l9TYYw4.png" width="624" height="308" />
+![The item visualization panel](http://i.imgur.com/l9TYYw4.png)
 
-<p style="text-align:center;">
-  <i>The &#8220;item visualization&#8221; panel (left) and the shop panel (right)</i>
-</p>
+##### The "item visualization" panel (left) and the shop panel (right)
 
-<span style="visibility:hidden;">+++</span><span style="line-height:1.5;">Several observations are to be made, again:</span>
+Several observations are to be made, again:
 
   1. The currency for the upgrades is cookies. **This gives endogenous value to the cookies, since they are now given a purpose (to buy upgrades) and further gives incentive for players to gain more cookies.**
   2. Upgrades increase the player’s rate of increase for cookies. **This, in-turn, gives endogenous value to having upgrades.**
@@ -62,12 +56,10 @@ description: "Cookie Clicker quickly went viral after its release and imprisoned
   6. Players don’t know what a new upgrade gives until after purchasing it. The new upgrades are also balanced in a way whereas the most recent upgrade is the most cost-effective. **This gives players a pleasurable surprise upon purchasing a new upgrade, as well as piques their curiosity.**
   7. When a new upgrade is purchased, a visualization of the upgrade will be displayed in the middle. **This again acts as a curiosity piquing mechanism.**
 
-<span style="visibility:hidden;">+++</span><span style="line-height:1.5;">After the player has unlocked most of the upgrades and has cookies that add up to billions and trillions, <strong>the main driving force of the game is simply pride, and pride equates to pleasure.</strong></span>
+After the player has unlocked most of the upgrades and has cookies that add up to billions and trillions, the main driving force of the game is simply **pride**, and **pride equates to pleasure**.
 
-<img class="aligncenter" alt="" src="http://i.imgur.com/x5aYRJX.png" width="624" height="296" />
+![So many cookies!!!!!](http://i.imgur.com/x5aYRJX.png)
 
-<p style="text-align:center;">
-  <i>So many cookies!!!!</i>
-</p>
+##### So many cookies!!!!
 
-<span style="visibility:hidden;">+++</span><span style="line-height:1.5;">So, to answer the question of how and why Cookie Clicker became so popular, it’s because Cookie Clicker is very <i>fun</i> to <i>play</i> with. The game is a genius at piquing player’s curiosity and awarding them with pleasurable surprises. Cookie Clicker is the subtle masterpiece of the gaming universe.</span>
+So, to answer the question of how and why Cookie Clicker became so popular, it’s because Cookie Clicker is very <i>fun</i> to <i>play</i> with. The game is a genius at piquing player’s curiosity and awarding them with pleasurable surprises. Cookie Clicker is the subtle masterpiece of the gaming universe.
