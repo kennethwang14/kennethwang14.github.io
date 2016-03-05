@@ -48,6 +48,6 @@ After brainstorming, I realized that the only area where I needed to check colli
 
 ##### The If-Statement for the Blue Square (centerX and centerY are the coordinates of my Block)
 
-I updated my collision system using the If-Statement above, so that it only checks collision for the nine adjacent tiles. I then moved the Rect variable from my Tile class to inside my collision class, only creating Rectangles for the nine adjacent tiles. After that, I updated my collision for other classes that also checked collision (nullifierTile, enemyProjectile, etc).
+I updated my collision system using the If-Statement above, so that it only checks collision for the nine adjacent tiles. I then moved the `Rect` variable from my `Tile` class to inside my collision class, only creating `Rects` for the nine adjacent tiles. After that, I updated my collision for other classes that also checked collision (nullifierTile, enemyProjectile, etc).
 
 With my collision system optimized, I loaded up the game on my Android and found that lag was clearly a lot less of a problem. There are still a lot more optimizations to be done, but as for today, my work is done.

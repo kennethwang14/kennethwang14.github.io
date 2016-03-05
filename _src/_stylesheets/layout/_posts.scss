@@ -40,7 +40,7 @@
 	li {
 		font-size: 1.35rem;
 	    color: black;
-	    margin-left: 1.4rem;
+	    margin-left: 3rem;
 	}
 
 	blockquote {
@@ -73,14 +73,16 @@
 	}
 
 	ol code, p code, ul code {
-	    display: inline-block;
-	    padding: .1em .5em;
-	    color: #315082;
+	    padding: 0.1em 0.5em;
+	    color: $theme-color;
 	    background: #fafafa;
 	    border: 1px solid #aaa;
 	    border-radius: .28rem;
 	}
-
+	code, kbd, pre, samp {
+		font-size: 0.8em;
+	}
+	
 	img {
 		display: block;
 	    margin: auto;
