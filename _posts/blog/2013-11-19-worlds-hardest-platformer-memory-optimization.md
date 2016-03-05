@@ -16,6 +16,7 @@ description: "Memory optimization and coding efficiency is extremely important f
 Precision and timing are two of the most important factors in World’s Hardest Platformer. However, the user’s sense of precision and timing would be completely distorted if lag occurs. That is why memory optimization and coding efficiency are extremely important for my game, combined with the fact that a vast amount of Android devices have low RAM.
 
 When examining my game, the most obvious memory-heavy objects are my `Tiles`. Each `Tile` is of its own instance, with a variety of variables. They are: 
+
 * int *tileX*
 * int *tileY*
 * int *speedX*
@@ -25,6 +26,7 @@ When examining my game, the most obvious memory-heavy objects are my `Tiles`. Ea
 * Rect *r*
 
 The Android `Rect` class also contains four int variables:
+
 * int *bottom*
 * int *left*
 * int *top*
@@ -32,7 +34,7 @@ The Android `Rect` class also contains four int variables:
 
 ![Sample tilemap](http://i.imgur.com/wTp9FjL.png)
 
-#####Tilemap for World 1: Level 2
+##### Tilemap for World 1: Level 2
 
 As you can see in the above Tilemap, where each character/integer is an instance of the `Tile` class, the amount of variables can easily add up and cause memory issues. In addition, I check `Tile` collision by traversing through an ArrayList that contains all my `Tiles` and checking if their `Rect` intersects with my Block’s `Rect`. I know, not very efficient at all.
 
