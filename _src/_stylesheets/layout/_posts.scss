@@ -33,6 +33,16 @@
     	color: black;
 	}
 	
+	a {
+		color: $theme-color;
+   		text-decoration: underline;
+	}
+
+	a:hover, a:active, a:focus {
+	    color: mix($theme-color, black, 15%);
+	    text-decoration: underline;
+	}
+
 	ul, ol {
 		margin-top: 1.6em;
 	}
@@ -67,6 +77,14 @@
 		}
 	}
 
+	h3 {
+		font-size: 2rem;
+	    font-family: "ff-meta-serif-web-pro", serif;
+	    font-weight: 800;
+	    margin-top: 2.4em;
+	    position: relative;
+	    top: 1rem;
+	}
 	h5 {
 		color: $silver;
 		text-align: center;
@@ -82,7 +100,7 @@
 	code, kbd, pre, samp {
 		font-size: 0.8em;
 	}
-	
+
 	img {
 		display: block;
 	    margin: auto;
