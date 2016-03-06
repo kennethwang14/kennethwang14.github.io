@@ -154,6 +154,17 @@
     font-size: 75px;
     font-weight: 800;
     opacity: 0.65;
+    @media (max-width: 825px) {
+	    top: 10px;
+	    right: 10px;
+	}
+	@media (max-width: 600px) {
+	    top: 5px;
+	    right: 5px;
+	    width: 50px;
+    	height: 50px;
+    	font-size: 60px;
+	}
 }
 
 .contact__formTitle {
@@ -162,12 +173,20 @@
     color: white;
     font-size: 70px;
     margin-bottom: 15px;
+    @media (max-width: 825px) {
+	    font-size: 50px;
+	}
+	@media (max-width: 600px) {
+	    font-size: 38px;
+	}
 }
 
 //CodePen by Josh Adamous
 form {
-	width: 600px;
-	margin: auto;
+    max-width: 650px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
 }
 
 .group { 
@@ -296,4 +315,7 @@ label {
     display: inline;
     border-bottom: 1px solid white;
     padding: 3px;
+    @media (max-width: 600px) {
+	    font-size: 30px;
+	}
 }
