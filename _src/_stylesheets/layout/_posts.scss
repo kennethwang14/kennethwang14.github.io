@@ -2,14 +2,21 @@
 	max-width: 900px;
     margin: auto;
     margin-top: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
     padding-bottom: 100px;
 }
 
 .post__title {
 	line-height: 1;
     text-align: center;
+    font-size: 3.4rem;
+    @media (max-width: 650px) {
+	    font-size: 2.55rem;
+	}
+	@media (max-width: 400px) {
+	    font-size: 1.9rem;
+	}
 }
 
 .post__date {
@@ -28,9 +35,15 @@
 	margin-top: 0.5em;
 	p {
 		font-size: 1.35rem;
-		text-indent: 2em;
+		text-indent: 1.2em;
     	margin-top: 1.6em;
     	color: black;
+    	@media (max-width: 650px) {
+	    	font-size: 1.15rem;
+		}
+		@media (max-width: 400px) {
+	    	font-size: 1rem;
+		}
 	}
 
 	a {
@@ -84,6 +97,12 @@
 	    margin-top: 2.4em;
 	    position: relative;
 	    top: 1rem;
+	    @media (max-width: 650px) {
+	    	font-size: 1.7rem;
+		}
+		@media (max-width: 650px) {
+	    	font-size: 1.45rem;
+		}
 	}
 	h5 {
 		color: $silver;
@@ -106,6 +125,7 @@
 	    margin: auto;
 	    margin-bottom: 10px;
 	    max-height: 650px;
+	    height: auto;
 	}
 	
 }
