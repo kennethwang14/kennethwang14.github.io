@@ -51,7 +51,7 @@ In short, **Responsive Web Design** is the approach that suggests that design an
 
 From a technical point of view, Responsive Web Design can be built with smart CSS Media Queries.....
 
-{% highlight css %}
+``` css
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
 and (min-device-width : 320px)
@@ -70,4 +70,4 @@ and (min-width : 321px) {
 and (max-width : 320px) {
 /* Styles */
 }
-{% endhighlight %}
+```
