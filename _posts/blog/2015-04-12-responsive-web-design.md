@@ -49,7 +49,7 @@ In short, **Responsive Web Design** is the approach that suggests that design an
 
 ##### Examples of responsive web design on this website #####
 
-From a technical point of view, Responsive Web Design can be built with smart CSS Media Queries. 
+From a technical point of view, Responsive Web Design can be built with smart CSS Media Queries..
 
 ``` css
 /* Smartphones (portrait and landscape) ----------- */
