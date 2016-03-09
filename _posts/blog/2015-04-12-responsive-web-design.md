@@ -36,13 +36,13 @@ The modern solution to this mobile problem is known as **Resposive Web Design**.
 Here is a quote from Ethan Marcotte that describes the nature of being *responsive*:
 
 >Recently, an emergent discipline called “responsive architecture” has begun asking how physical spaces can respond to the presence of people passing through them. Through a combination of embedded robotics and tensile materials, architects are experimenting with art installations and wall structures that bend, flex, and expand as crowds approach them. Motion sensors can be paired with climate control systems to adjust a room’s temperature and ambient lighting as it fills with people. Companies have already produced “smart glass technology” that can automatically become opaque when a room’s occupants reach a certain density threshold, giving them an additional layer of privacy.
->This is our way forward. Rather than tailoring disconnected designs to each of an ever-increasing number of web devices, we can treat them as facets of the same experience. We can design for an optimal viewing experience, but embed standards-based technologies into our designs to make them not only more flexible, but more adaptive to the media that renders them. In short, we need to practice *responsive web design*.
+><br/>This is our way forward. Rather than tailoring disconnected designs to each of an ever-increasing number of web devices, we can treat them as facets of the same experience. We can design for an optimal viewing experience, but embed standards-based technologies into our designs to make them not only more flexible, but more adaptive to the media that renders them. In short, we need to practice *responsive web design*.
 ><cite>Ethan Marcotte</cite>
 
 
 In short, **Responsive Web Design** is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. The practice consists of a mix of flexible grids and layouts, images and an intelligent use of CSS media queries. As the user switches from their laptop to iPad, the website should automatically switch to accommodate for resolution, image size and scripting abilities. In other words, the website should have the technology to automatically respond to the user’s preferences. This would eliminate the need for a different design and development phase for each new gadget on the market. ([Smashing Magazine](https://www.smashingmagazine.com))
 
-[Responsive Web Design example](/assets/images/blog/responsive-web-design/responsive.jpg)
+![Responsive Web Design example](/assets/images/blog/responsive-web-design/responsive.jpg)
 <br />
 <a class="embedly-card" href="https://gfycat.com/ReflectingSerpentineGopher">KenDevDesigns - Responsive Design</a>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
@@ -51,7 +51,7 @@ In short, **Responsive Web Design** is the approach that suggests that design an
 
 From a technical point of view, Responsive Web Design can be built with smart CSS Media Queries. 
 
-```css
+``` css
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
 and (min-device-width : 320px)
