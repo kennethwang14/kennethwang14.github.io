@@ -49,7 +49,7 @@ In short, **Responsive Web Design** is the approach that suggests that design an
 
 ##### Examples of responsive web design on this website #####
 
-From a technical point of view, Responsive Web Design can be built with smart CSS Media Queries.....
+You can think of Responsive Web Design as "fluid layout with the same content". From a technical point of view, Responsive Web Design can be built with smart CSS Media Queries. Here is a starter template from Andy Clark. 
 
 ``` css
 /* Smartphones (portrait and landscape) ----------- */
@@ -71,3 +71,10 @@ and (max-width : 320px) {
 /* Styles */
 }
 ```
+
+Media Queries are not the only element of Responsive Web Design. Every asset (CSS, JavaScript, images, fonts) must all be optimized for mobile. Often times, you do not need to display a HD image to mobile users. Instead, show them a thumbnail of the same image, which will vastly improve loading times.
+
+
+### Conclusion ###
+
+Ethan Marcotte predicted five years ago that one day mobile users will overtake PC users. That age and day is now. Technology is evolving, and so is modern web design and development. Support for all devices is extremely vital currently, and responsive web design is the perfect answer to that. 
