@@ -152,7 +152,8 @@
 
 	.introduction__typewriter {
 	  font-size: 22px;
-	  font-family: $code-font;
+	  font-family: monospace;
+	  color: $silver;
 	  @media (max-width: 700px) {
 	  	font-size: 18px;
 	  }
