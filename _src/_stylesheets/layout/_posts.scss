@@ -133,5 +133,17 @@
 	    max-height: 650px;
 	    height: auto;
 	}
+
+	.highlight {
+		padding: 2.5em;
+	    margin-top: 2em;
+	    font-size: 1.2rem;
+	    @media (max-width: 650px) {
+	    	font-size: 1.1rem;
+		}
+		@media (max-width: 425px) {
+	    	font-size: 1rem;
+		}
+	}
 	
 }
