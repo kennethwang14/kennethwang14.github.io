@@ -153,7 +153,7 @@
 	.introduction__typewriter {
 	  font-size: 22px;
 	  font-family: monospace, monospace;
-	  color: $silver;
+	  color: mix(white, $silver, 25%);
 	  @media (max-width: 700px) {
 	  	font-size: 18px;
 	  }
