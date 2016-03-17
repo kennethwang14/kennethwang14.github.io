@@ -29,6 +29,9 @@
 	}
 
 	.siteNav__logo img {
+		position: relative;
+	    top: 5px;
+	    margin-right: 5px;
 		@media (max-width: 400px) {
 			width: 75px;
 		}
