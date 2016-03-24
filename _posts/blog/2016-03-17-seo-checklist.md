@@ -117,5 +117,3 @@ It is recommended to also use Google Search Console (previously known as Google 
 ### Conclusion ###
 
 SEO is very important these days for growing your brand or business. These suggestions I gave are purely *technical* ones, and there is more to SEO than just technical improvements. If you want to get deeper into SEO, I highly recommend subscribing to the [SEO Moz Blog](https://moz.com/blog). One more thing to keep in mind is that no matter how optimized your website is for SEO, content is still the most important thing there is. If you have great and frequently updated content, your website will naturally be highly ranked even without any SEO tricks. Good luck!
-
-
