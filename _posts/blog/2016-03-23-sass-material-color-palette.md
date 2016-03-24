@@ -10,7 +10,7 @@ categories:
 
 thumbnail: blog/sass-material-color-palette/thumbnail.png
 
-description: "My implementation of collision was very simple and worked perfectly for the most part for my game. However, upon testing, there was one perplexing issue with it."
+description: "Color in material design is inspired by bold hues juxtaposed with muted environments, deep shadows, and bright highlights. Material takes cues from contemporary architecture, road signs, pavement marking tape, and athletic courts. Color should be unexpected and vibrant."
 ---
 
 >Color in material design is inspired by bold hues juxtaposed with muted environments, deep shadows, and bright highlights. Material takes cues from contemporary architecture, road signs, pavement marking tape, and athletic courts. Color should be unexpected and vibrant.
