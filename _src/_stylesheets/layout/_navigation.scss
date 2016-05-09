@@ -45,7 +45,7 @@
 	
 	.siteNav__title a {
 		font-size: 18px;
-    font-family: 'Montserrat';
+    font-family: $title-font;
     text-transform: uppercase;
     letter-spacing: 3px;
     @media (max-width: 400px) {
@@ -59,7 +59,7 @@
 
 	.siteNav__braces span {
 		  font-size: 27px;
-	    font-family: "anonymous-pro", serif;
+	    font-family: $code-font;
 	}
 
 	.siteNav__braces--startBrace {
