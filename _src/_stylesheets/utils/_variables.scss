@@ -5,12 +5,13 @@
 
 /// Regular font family
 /// @type List
-$body-font: 'proxima-nova', sans-serif; //100, 300, 700, 800
-$title-font: 'Montserrat', sans-serif; //400
+$body-font: 'proxima-nova', "Helvetica Neue", "Open Sans","Gill Sans MT", "Gill Sans", Corbel,Arial, sans-serif;
+$title-font: 'Montserrat', 'proxima-nova', "Helvetica Neue", "Open Sans","Gill Sans MT", "Gill Sans", Corbel,Arial, sans-serif; //400
+$book-font: "ff-meta-serif-web-pro", Georgia, "Times New Roman", Times, serif;
 
 /// Code (monospace) font family
 /// @type List
-$code-font: 'anonymous-pro', serif; //400
+$code-font: 'anonymous-pro', monospace; //400
 
 /// Colors
 $sea-blue: rgb(25,118,210);
