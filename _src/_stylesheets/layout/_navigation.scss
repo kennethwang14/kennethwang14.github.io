@@ -65,6 +65,7 @@
 	}
 
   .siteNav__link-container, .siteNav__title-container {
+    display: inline-block;
     @media (max-width: 700px) {
       width: 100%;
       text-align: center;
