@@ -1,22 +1,34 @@
 ---
-title: Sass Material Color Palette
+title: Typography Handbook
 layout: blogpost
 
 siteNav: blog
-date: 2016-03-23
+date: 2016-05-06
 categories:
   - blog
   - web-design
 
-thumbnail: blog/sass-material-color-palette/thumbnail.png
+thumbnail: blog/typography-handbook/thumbnail.png
 
-description: "Color in material design is inspired by bold hues juxtaposed with muted environments, deep shadows, and bright highlights. Material takes cues from contemporary architecture, road signs, pavement marking tape, and athletic courts. Color should be unexpected and vibrant."
+description: "After 2 years of experimentation, 3 months of daily research, and lots and lots of editing, I finally finished writing [Typography Handbook](http://www.typographyhandbook.com) - a concise, referential guide on best web typographic practices."
 ---
 
->Color in material design is inspired by bold hues juxtaposed with muted environments, deep shadows, and bright highlights. Material takes cues from contemporary architecture, road signs, pavement marking tape, and athletic courts. Color should be unexpected and vibrant.
-><cite>Google</cite>
+After 2 years of experimentation, 3 months of daily research, 15% concentrated of will, and lots and lots of editing, I finally finished writing [Typography Handbook](http://www.typographyhandbook.com) - a concise, referential guide on best web typographic practices.
 
-I've been a big fan of [Google's material design color palette](https://www.google.com/design/spec/style/color.html) ever since it was released. It is a very comprehensive palette that can contains 10 shades per color. Here is my Sass implementation of Google's color palette.
+
+When I first started designing websites, typography was an area that greatly troubled me. Typographic design was hard, and technical implementation was even harder. I found it nearly impossible to find up-to-date information on best web typographic practices. There were many blog posts by experts with contradicting information, and existing books on the subject of web typography rarely go into details on technical implementation. I wrote *Typography Handbook* to solve this problem, and provide a definite place for beginners and experts alike to learn industry standard practices on typography.
+
+
+I hope that the book helps you too, enjoy!
+
+
+**Update:** Typography Handbook reached front page of [/r/web-design](http://reddit.com/r/web-design). Thank you so much everyone for the support and the kind words! :)
+
+
+![Front page of /r/web-design](/assets/images/blog/typography-handbook/frontpage.png)
+
+
+
 
 ```scss
 @function color($color, $value: 500) {
