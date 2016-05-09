@@ -54,13 +54,7 @@
 	}
 
 	a {
-		color: $theme-color;
-   		text-decoration: underline;
-	}
-
-	a:hover, a:active, a:focus {
-	    color: mix(black, $theme-color, 20%);
-	    text-decoration: underline;
+  	@include link-underline(#fff, $theme-color, #FFFFCB);
 	}
 
 	ul, ol {
