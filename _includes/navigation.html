@@ -5,30 +5,37 @@
 <section class="navigation">
 	<nav class="siteNav">
 		<ul class="siteNav__list">
-			<li class="siteNav__logo">
-				<a href="{{ site.url }}"><img src="{{ site.baseurl }}/assets/images/responsive-design.png" /></a>
-			</li>
-			<li class="siteNav__title">
-				<a href="{{ site.url }}">KenDevDesigns</a>
-			</li>
-			<li class="siteNav__braces siteNav__braces--startBrace">
-				<span>{</span>
-			</li>
-			<li class="siteNav__link">
-				<a class="{% if page.siteNav == 'home' %}active{% endif %}" href="{{ site.url }}/">Home</a>
-			</li>
-			<li class="siteNav__link">
-				<a class="{% if page.siteNav == 'portfolio' %}active{% endif %}" href="{{ site.url }}/portfolio/">Portfolio</a>
-			</li>
-			<li class="siteNav__link">
-				<a class="{% if page.siteNav == 'blog' %}active{% endif %}" href="{{ site.url }}/blog/">Blog</a>
-			</li>
-			<li class="siteNav__link">
-				<a class="contact" href="javascript:;">Contact</a>
-			</li>
-			<li class="siteNav__braces siteNav__braces--endBrace">
-				<span>}</span>
-			</li>
+      <div class="siteNav__title-container">
+
+			 <li class="siteNav__logo">
+				  <a href="{{ site.url }}"><img src="{{ site.baseurl }}/assets/images/responsive-design.png" /></a>
+			 </li>
+			 <li class="siteNav__title">
+				  <a href="{{ site.url }}">KenDevDesigns</a>
+			 </li>
+      </div>
+
+      <div class="siteNav__link-container">
+			 <li class="siteNav__braces siteNav__braces--startBrace">
+				  <span>{</span>
+			 </li>
+			 <li class="siteNav__link">
+				  <a class="{% if page.siteNav == 'home' %}active{% endif %}" href="{{ site.url }}/">Home</a>
+			 </li>
+			 <li class="siteNav__link">
+				  <a class="{% if page.siteNav == 'portfolio' %}active{% endif %}" href="{{ site.url }}/portfolio/">Portfolio</a>
+			 </li>
+			 <li class="siteNav__link">
+				  <a class="{% if page.siteNav == 'blog' %}active{% endif %}" href="{{ site.url }}/blog/">Blog</a>
+			 </li>
+			 <li class="siteNav__link">
+				  <a class="contact" href="javascript:;">Contact</a>
+			 </li>
+			 <li class="siteNav__braces siteNav__braces--endBrace">
+				  <span>}</span>
+			 </li>
+      </div>
+      
 		</ul>
 	</nav>
 </section>
