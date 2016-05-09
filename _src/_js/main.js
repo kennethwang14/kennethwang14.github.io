@@ -5,8 +5,6 @@ $(function() {
     $(this).slideUp();
   });
 });
-
-var nav = responsiveNav(".siteNav");
   
 $('.magnific').magnificPopup({
   type: 'image',
