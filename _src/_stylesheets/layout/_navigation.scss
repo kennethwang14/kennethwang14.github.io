@@ -84,7 +84,7 @@
 		}
 
 
-		.siteNav__list li:last-child {
+		.siteNav__list li:nth-last-child(2) { // last child - 1
 			border-right: none;
 		}
 
