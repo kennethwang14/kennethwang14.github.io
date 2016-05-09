@@ -319,13 +319,16 @@
 	.latestPosts__title {
 		line-height: 1.1;
 		font-family: $title-font;
-    @include link-underline(#fff, $silver, #FFFFCB);
+    @include link-underline(#fff, $theme-color, #FFFFCB);
+    display: inline-block;
+    background-size: 1px 2px;
+    color: #333;
+    background-position: 0% 97%;
 	}
 
 		
 	.latestPosts__text__wrapper .latestPosts__description {
 	  color: $body-color;
-	  margin-top: 5px;
 	  @media (max-width: 900px) {
         font-size: 14px;
   	  }
