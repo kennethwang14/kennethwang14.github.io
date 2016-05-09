@@ -18,11 +18,12 @@ description: "Color in material design is inspired by bold hues juxtaposed with 
 
 I've been a big fan of [Google's material design color palette](https://www.google.com/design/spec/style/color.html) ever since it was released. It is a very comprehensive palette that can really be used for almost any situation. Here is my Sass implementation of Google's color palette.
 
-```sass
+```scss
 @function color($color, $value: 500) {
   @return map-get($color, $value);
 }
-
+ 
+/* Google Material Design Colors */
 $red: (
   50:   #ffebee,
   100:  #ffcdd2,
@@ -39,7 +40,7 @@ $red: (
   a400: #ff1744,
   a700: #d50000
 );
-
+ 
 $pink: (
   50:   #fce4ec,
   100:  #f8bbd0,
@@ -56,7 +57,7 @@ $pink: (
   a400: #f50057,
   a700: #c51162
 );
-
+ 
 $purple: (
   50:   #f3e5f5,
   100:  #e1bee7,
@@ -73,7 +74,7 @@ $purple: (
   a400: #d500f9,
   a700: #aa00ff
 );
-
+ 
 $deep-purple: (
   50:   #ede7f6,
   100:  #d1c4e9,
@@ -90,7 +91,7 @@ $deep-purple: (
   a400: #651fff,
   a700: #6200ea
 );
-
+ 
 $indigo: (
   50:   #e8eaf6,
   100:  #c5cae9,
@@ -107,7 +108,7 @@ $indigo: (
   a400: #3d5afe,
   a700: #304ffe
 );
-
+ 
 $blue: (
   50:   #e3f2fd,
   100:  #bbdefb,
@@ -124,7 +125,7 @@ $blue: (
   a400: #2979ff,
   a700: #2962ff
 );
-
+ 
 $light-blue: (
   50:   #e1f5fe,
   100:  #b3e5fc,
@@ -141,7 +142,7 @@ $light-blue: (
   a400: #00b0ff,
   a700: #0091ea
 );
-
+ 
 $cyan: (
   50:   #e0f7fa,
   100:  #b2ebf2,
@@ -158,7 +159,7 @@ $cyan: (
   a400: #00e5ff,
   a700: #00b8d4
 );
-
+ 
 $teal: (
   50:   #e0f2f1,
   100:  #b2dfdb,
@@ -175,7 +176,7 @@ $teal: (
   a400: #1de9b6,
   a700: #00bfa5
 );
-
+ 
 $green: (
   50:   #e8f5e9,
   100:  #c8e6c9,
@@ -192,7 +193,7 @@ $green: (
   a400: #00e676,
   a700: #00c853
 );
-
+ 
 $light-green: (
   50:   #f1f8e9,
   100:  #dcedc8,
@@ -209,7 +210,7 @@ $light-green: (
   a400: #76ff03,
   a700: #64dd17
 );
-
+ 
 $lime: (
   50:   #f9fbe7,
   100:  #f0f4c3,
@@ -226,7 +227,7 @@ $lime: (
   a400: #c6ff00,
   a700: #aeea00
 );
-
+ 
 $yellow: (
   50:   #fffde7,
   100:  #fff9c4,
@@ -243,7 +244,7 @@ $yellow: (
   a400: #ffea00,
   a700: #ffd600
 );
-
+ 
 $amber: (
   50:   #fff8e1,
   100:  #ffecb3,
@@ -260,7 +261,7 @@ $amber: (
   a400: #ffc400,
   a700: #ffab00
 );
-
+ 
 $orange: (
   50:   #fff3e0,
   100:  #ffe0b2,
@@ -277,7 +278,7 @@ $orange: (
   a400: #ff9100,
   a700: #ff6d00
 );
-
+ 
 $deep-orange: (
   50:   #fbe9e7,
   100:  #ffccbc,
@@ -294,7 +295,7 @@ $deep-orange: (
   a400: #ff3d00,
   a700: #dd2c00
 );
-
+ 
 $brown: (
   50:   #efebe9,
   100:  #d7ccc8,
@@ -307,7 +308,7 @@ $brown: (
   800:  #4e342e,
   900:  #3e2723
 );
-
+ 
 $grey: (
   50:   #fafafa,
   100:  #f5f5f5,
@@ -320,7 +321,7 @@ $grey: (
   800:  #424242,
   900:  #212121
 );
-
+ 
 $blue-grey: (
   50:   #eceff1,
   100:  #cfd8dc,
@@ -333,42 +334,24 @@ $blue-grey: (
   800:  #37474f,
   900:  #263238
 );
-
-$theme-color: $green;
-
-@each $value, $color in $theme-color {
-  .theme-color--#{$value} {
-    color: $color;
-  }
-}
-@each $value, $color in $theme-color {
-  .background-theme-color--#{$value} {
-    background-color: $color;
-  }
-}
-.theme-color {
-  color: color($theme-color)
-}
-
-@each $value, $color in $grey{
-  .greyscale--#{$value} {
-    color: $color;
-  }
-}
-@each $value, $color in $grey {
-  .background-greyscale--#{$value} {
-    background-color: $color;
-  }
-}
+ 
+$theme-color: $blue;
+$secondary-color: $red;
+$body-color: rgb(51, 51, 51);
 ```
 
-Using it is very simple. Simply call the `color($color, $value)` function, or apply the `.theme-color` class to your HTML tags. Here is an example:
 
-```sass
-.dialog-box {
-  background-color: color(grey, 100);
-  border: 1px solid color(cyan);
-  border-radius: 25px;
+I like to abstract the theme color to `$theme-color` and the secondary color to `$secondary-color`. The advantages of this is that if I wanted to change either of those, all I need to do is change it once.
+
+
+Using it is very simple. Simply call the `color($color, $value)` function or just simply `color($color)`. Here is an example:
+
+```scss
+.button {
+  background-color: color($theme-color, 500);
+  border: 1px solid color($theme-color, 600);
+  border-radius: 5px;
+  color: white;
 }
 ```
 
