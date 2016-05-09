@@ -6,6 +6,7 @@ $(function() {
   });
 });
 
+var nav = responsiveNav(".siteNav");
   
 $('.magnific').magnificPopup({
   type: 'image',

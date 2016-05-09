@@ -13,9 +13,6 @@
 
 .siteNav__list {
   padding: 20px;
-   @media (max-width: 850px) {
-		padding-left: 0;
-	}
 }
 
 	.siteNav__list li {
@@ -63,7 +60,7 @@
 		bottom: 3px;
 		@media (max-width: 400px) {
 			padding-left: 8px;
-	  		padding-right: 8px;
+	  	padding-right: 8px;
 		}
 	}
 
