@@ -1,3 +1,1 @@
-# KenDevBlog.com
-
-My blog is powered by Jekyll. This is the uncompiled Jekyll code.
+This is the old version using Jekyll. [Click here for the new version](https://github.com/kennethwang14/KenDevDesigns)
